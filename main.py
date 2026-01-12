@@ -10,7 +10,16 @@ Commands:
     python main.py predict    - Generate predictions
     python main.py review     - Generate tool reviews
     python main.py radio      - Generate Bharte Chalo radio script
+    python main.py show       - Bharte Chalo show management
     python main.py help       - Show this help
+
+BHARTE CHALO SHOW COMMANDS:
+    python main.py show dashboard    - Show complete dashboard
+    python main.py show episode new <topic> <theme>  - Create episode
+    python main.py show episode list - List episodes
+    python main.py show guest add <name>  - Add guest
+    python main.py show question add <question>  - Add listener question
+    python main.py show calendar month  - Show month calendar
 """
 
 import os
@@ -693,6 +702,11 @@ def main():
         topic = sys.argv[2]
         num_episodes = int(sys.argv[3]) if len(sys.argv) > 3 else 4
         engine.run_radio_series(topic, num_episodes)
+    elif command == "show":
+        # Bharte Chalo Show Management
+        from bharte_chalo.cli import BharteChaloCLI
+        cli = BharteChaloCLI(gemini_client=engine.gemini)
+        cli.run(sys.argv[2:])
     else:
         print(f"Unknown command: {command}")
         print_help()
