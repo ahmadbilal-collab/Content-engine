@@ -9,6 +9,7 @@ Commands:
     python main.py scan       - Quick AI news scan
     python main.py predict    - Generate predictions
     python main.py review     - Generate tool reviews
+    python main.py radio      - Generate Bharte Chalo radio script
     python main.py help       - Show this help
 """
 
@@ -31,6 +32,7 @@ from generators.linkedin_generator import LinkedInGenerator
 from generators.twitter_generator import TwitterGenerator
 from generators.newsletter_generator import NewsletterGenerator
 from generators.article_generator import ArticleGenerator
+from generators.radio_script_generator import RadioScriptGenerator
 
 
 class AIThoughtLeadershipEngine:
@@ -64,6 +66,7 @@ class AIThoughtLeadershipEngine:
         self.twitter_gen = TwitterGenerator(self.gemini)
         self.newsletter_gen = NewsletterGenerator(self.gemini)
         self.article_gen = ArticleGenerator(self.gemini)
+        self.radio_gen = RadioScriptGenerator(self.gemini)
 
         # Setup directories
         self.setup_directories()
@@ -76,6 +79,7 @@ class AIThoughtLeadershipEngine:
             "output/daily",
             "output/weekly",
             "output/monthly",
+            "output/radio",
             "data",
         ]
         for d in dirs:
@@ -437,6 +441,132 @@ class AIThoughtLeadershipEngine:
             print(f"Error: {e}")
             return {}
 
+    def run_radio(
+        self,
+        topic: str,
+        theme: str = "AI Fundamentals",
+        episode_number: Optional[int] = None
+    ) -> Dict[str, Any]:
+        """
+        Generate a Bharte Chalo radio show script.
+
+        Args:
+            topic: Main topic for the episode
+            theme: Episode theme category
+            episode_number: Optional episode number
+
+        Returns:
+            Generated script
+        """
+        print("\n" + "=" * 60)
+        print("🎙️ BHARTE CHALO - Radio Script Generator")
+        print("=" * 60)
+        print(f"\n📝 Topic: {topic}")
+        print(f"🎯 Theme: {theme}")
+
+        today = datetime.now().strftime("%Y-%m-%d")
+        output_path = Path(f"output/radio/{today}")
+        output_path.mkdir(parents=True, exist_ok=True)
+
+        results = {}
+
+        try:
+            # Generate full episode script
+            print("\n🎬 Generating episode script...")
+            script = self.radio_gen.generate_episode_script(
+                topic=topic,
+                theme=theme,
+                episode_number=episode_number,
+                include_urdu_phrases=True
+            )
+            results["script"] = script
+
+            # Save outputs
+            safe_topic = "".join(c if c.isalnum() else "_" for c in topic[:30])
+            self.save_json(output_path / f"script_{safe_topic}.json", script)
+
+            md_content = self.radio_gen.format_script_markdown(script)
+            self.save_markdown(output_path / f"script_{safe_topic}.md", md_content)
+
+            print("  ✓ Episode script generated")
+
+            # Print summary
+            print("\n" + "=" * 60)
+            print(f"🎉 Script generated successfully!")
+            print(f"📁 Output: {output_path}")
+            print("=" * 60)
+
+            # Show episode title
+            if script.get("episode_title"):
+                print(f"\n📺 Episode: {script['episode_title']}")
+            if script.get("total_duration"):
+                print(f"⏱️ Duration: {script['total_duration']}")
+
+            # Show quotable moments
+            if script.get("quotable_moments"):
+                print("\n💬 Quotable Moments:")
+                for quote in script["quotable_moments"][:3]:
+                    print(f"   > {quote}")
+
+        except Exception as e:
+            print(f"  ⚠ Script generation failed: {e}")
+            import traceback
+            traceback.print_exc()
+
+        return results
+
+    def run_radio_series(
+        self,
+        main_topic: str,
+        num_episodes: int = 4
+    ) -> Dict[str, Any]:
+        """
+        Generate a series outline for Bharte Chalo.
+
+        Args:
+            main_topic: Overarching topic for the series
+            num_episodes: Number of episodes in series
+
+        Returns:
+            Series outline
+        """
+        print("\n" + "=" * 60)
+        print("🎙️ BHARTE CHALO - Series Planner")
+        print("=" * 60)
+        print(f"\n📚 Main Topic: {main_topic}")
+        print(f"📻 Episodes: {num_episodes}")
+
+        today = datetime.now().strftime("%Y-%m-%d")
+        output_path = Path(f"output/radio/{today}")
+        output_path.mkdir(parents=True, exist_ok=True)
+
+        try:
+            print("\n📋 Generating series outline...")
+            series = self.radio_gen.generate_topic_series(
+                main_topic=main_topic,
+                num_episodes=num_episodes
+            )
+
+            safe_topic = "".join(c if c.isalnum() else "_" for c in main_topic[:30])
+            self.save_json(output_path / f"series_{safe_topic}.json", series)
+
+            print("  ✓ Series outline generated")
+            print(f"\n📁 Output: {output_path}")
+
+            # Show series overview
+            if series.get("series_title"):
+                print(f"\n📺 Series: {series['series_title']}")
+            if series.get("episodes"):
+                print("\n📋 Episodes:")
+                for ep in series["episodes"]:
+                    print(f"   {ep.get('episode_number', '?')}. {ep.get('title', 'TBD')}")
+
+            return series
+
+        except Exception as e:
+            print(f"  ⚠ Series generation failed: {e}")
+            return {}
+
 
 def print_help():
     """Print help message."""
@@ -474,6 +604,14 @@ COMMANDS:
     review      Generate tool review
                 Usage: python main.py review <tool_name>
 
+    radio       Generate Bharte Chalo radio show script
+                Usage: python main.py radio <topic> [theme]
+                Themes: AI Fundamentals, Leadership in Digital Age,
+                        Innovation Mindset, Career in Tech, etc.
+
+    radio-series Generate episode series outline
+                Usage: python main.py radio-series <topic> [num_episodes]
+
     help        Show this help message
 
 EXAMPLES:
@@ -482,6 +620,9 @@ EXAMPLES:
     python main.py scan
     python main.py predict
     python main.py review "Cursor"
+    python main.py radio "What is AI and Why Should You Care"
+    python main.py radio "ChatGPT for Beginners" "AI Fundamentals"
+    python main.py radio-series "Understanding AI" 4
 
 SETUP:
     1. Create .env file with GEMINI_API_KEY
@@ -491,6 +632,7 @@ SETUP:
 OUTPUT:
     - Daily output: output/daily/YYYY-MM-DD/
     - Weekly output: output/weekly/week-WW-YYYY/
+    - Radio scripts: output/radio/YYYY-MM-DD/
 """
     print(help_text)
 
@@ -534,6 +676,23 @@ def main():
             return
         tool_name = sys.argv[2]
         engine.run_tool_review(tool_name)
+    elif command == "radio":
+        if len(sys.argv) < 3:
+            print("Usage: python main.py radio <topic> [theme]")
+            print("\nThemes: AI Fundamentals, Leadership in Digital Age,")
+            print("        Innovation Mindset, Career in Tech, Entrepreneurship,")
+            print("        Future of Work, Pakistan Tech Ecosystem")
+            return
+        topic = sys.argv[2]
+        theme = sys.argv[3] if len(sys.argv) > 3 else "AI Fundamentals"
+        engine.run_radio(topic, theme)
+    elif command == "radio-series":
+        if len(sys.argv) < 3:
+            print("Usage: python main.py radio-series <topic> [num_episodes]")
+            return
+        topic = sys.argv[2]
+        num_episodes = int(sys.argv[3]) if len(sys.argv) > 3 else 4
+        engine.run_radio_series(topic, num_episodes)
     else:
         print(f"Unknown command: {command}")
         print_help()
