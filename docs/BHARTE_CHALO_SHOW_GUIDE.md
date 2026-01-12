@@ -9,32 +9,53 @@
 
 **Mission:** Educate everyone in Pakistan on AI, IT, leadership, and innovation - helping them think better, decide smarter, and move forward.
 
+**Schedule:** 2 Episodes Per Week | 1 Hour Each
+
 ---
 
 ## Show Structure
 
-### Episode Format (20-25 minutes)
+### Episode Format (1 HOUR)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  AGHAZ / OPENING                                    2-3 min    │
-│  → Assalam-u-Alaikum + Energy + Hook + Topic Intro             │
+│  1. AGHAZ / OPENING                                  5 min     │
+│     → Assalam-u-Alaikum + Energy + Last Episode Recap          │
+│     → Today's topic hook + Episode roadmap                     │
 ├─────────────────────────────────────────────────────────────────┤
-│  TECH KI DUNIYA / TECH SPOTLIGHT                    5-7 min    │
-│  → Core concept explained with Pakistani analogies             │
+│  2. TECH KHABRAIN / TECH NEWS                       8-10 min   │
+│     → 3-4 weekly tech news + Pakistan impact analysis          │
+│     → Quick takes and listener action items                    │
 ├─────────────────────────────────────────────────────────────────┤
-│  LEADERSHIP KA SABAQ / LEADERSHIP LENS              4-5 min    │
-│  → Leadership connection + Decision frameworks                 │
+│  3. AAJ KA MAUZU - PEHLA HISSA / MAIN TOPIC PART 1  12-15 min  │
+│     → Deep dive into concepts and fundamentals                 │
+│     → Pakistani analogies + Historical context                 │
 ├─────────────────────────────────────────────────────────────────┤
-│  HAMARA PAKISTAN / PAKISTAN PERSPECTIVE             3-4 min    │
-│  → Local opportunities + Success stories + Challenges          │
+│  4. HAMARI KAHANI / OUR STORY                       8-10 min   │
+│     → Pakistani success story related to topic                 │
+│     → Real journey: challenges, turning point, success         │
 ├─────────────────────────────────────────────────────────────────┤
-│  AAJ HI KAREIN / ACTION STEPS                       3-4 min    │
-│  → 3 specific actions + Free resources + Experiments           │
+│  5. AAJ KA MAUZU - DOOSRA HISSA / MAIN TOPIC PART 2 10-12 min  │
+│     → Practical application + Tools + Step-by-step guide       │
+│     → Common mistakes to avoid                                 │
 ├─────────────────────────────────────────────────────────────────┤
-│  ALVIDA / CLOSING                                   2-3 min    │
-│  → Key takeaway + Inspiration + CTA + Next episode teaser      │
+│  6. LEADERSHIP KA SABAQ / LEADERSHIP LENS           8-10 min   │
+│     → Leadership angle + Decision frameworks                   │
+│     → How leaders should think about this topic                │
+├─────────────────────────────────────────────────────────────────┤
+│  7. AAP KE SAWAAL / YOUR QUESTIONS                  8-10 min   │
+│     → Answer 3-4 listener questions from the week              │
+│     → Acknowledge by city + Practical answers                  │
+├─────────────────────────────────────────────────────────────────┤
+│  8. AAJ HI KAREIN / ACTION STEPS                    5-7 min    │
+│     → 5 specific actions for this week                         │
+│     → Free resources + Weekly challenge                        │
+├─────────────────────────────────────────────────────────────────┤
+│  9. ALVIDA / CLOSING                                3-5 min    │
+│     → 3 key takeaways + Next episode teaser                    │
+│     → Community shoutouts + Signature sign-off                 │
 └─────────────────────────────────────────────────────────────────┘
+                        TOTAL: 60 MINUTES
 ```
 
 ---
@@ -105,22 +126,36 @@
 
 ---
 
-## Weekly Schedule Template
+## Weekly Schedule Template (2 Episodes/Week)
 
 ```
-WEEK STRUCTURE:
+WEEK STRUCTURE FOR 2 EPISODES:
 
-Monday:    Research & Script Writing
-Tuesday:   Recording Day
-Wednesday: Editing & Post-Production
-Thursday:  Episode Release + Promotion
-Friday:    Community Engagement + Q&A Collection
-Weekend:   Planning Next Week + Guest Outreach
+┌────────────────────────────────────────────────────────────────┐
+│  EPISODE 1 (Tuesday Release)                                   │
+├────────────────────────────────────────────────────────────────┤
+│  Saturday:  Research + Topic Deep Dive                         │
+│  Sunday:    Script Generation + Review                         │
+│  Monday:    Recording (1 hour session)                         │
+│  Tuesday:   AM: Editing | PM: Release + Promotion              │
+├────────────────────────────────────────────────────────────────┤
+│  EPISODE 2 (Friday Release)                                    │
+├────────────────────────────────────────────────────────────────┤
+│  Tuesday:   Research + Collect Listener Questions              │
+│  Wednesday: Script Generation + Review                         │
+│  Thursday:  Recording (1 hour session)                         │
+│  Friday:    AM: Editing | PM: Release + Promotion              │
+└────────────────────────────────────────────────────────────────┘
 ```
 
-### Suggested Release Schedule
-- **Main Episode:** Thursday (Prime listening day)
-- **Bonus Content:** Sunday (Weekend learning)
+### Release Schedule
+- **Episode 1:** Tuesday 6 PM PKT (Start of work week momentum)
+- **Episode 2:** Friday 6 PM PKT (Weekend learning time)
+
+### Why This Schedule?
+- Tuesday: People are settled into work week, ready to learn
+- Friday: Weekend ahead for applying what they learned
+- 3 days gap: Time to collect questions, prepare quality content
 
 ---
 

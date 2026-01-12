@@ -98,36 +98,58 @@ class RadioScriptGenerator:
         ]
     }
 
-    # Show segments configuration
+    # Show configuration
+    SHOW_CONFIG = {
+        "episodes_per_week": 2,
+        "episode_duration": "1 hour",
+        "release_days": ["Tuesday", "Friday"]
+    }
+
+    # Show segments configuration (1-hour format)
     SEGMENTS = {
         "opening": {
-            "duration": "2-3 minutes",
-            "purpose": "Hook listeners, set energy, introduce topic",
+            "duration": "5 minutes",
+            "purpose": "Hook listeners, set energy, introduce topic, week recap",
             "urdu_name": "Aghaz"
         },
-        "tech_spotlight": {
-            "duration": "5-7 minutes",
-            "purpose": "Deep dive into one AI/IT concept or tool",
-            "urdu_name": "Tech ki Duniya"
+        "tech_khabrain": {
+            "duration": "8-10 minutes",
+            "purpose": "Weekly tech news with Pakistan impact analysis",
+            "urdu_name": "Tech Khabrain"
+        },
+        "main_topic_part1": {
+            "duration": "12-15 minutes",
+            "purpose": "Deep dive into main topic - concepts and fundamentals",
+            "urdu_name": "Aaj ka Mauzu - Pehla Hissa"
+        },
+        "hamari_kahani": {
+            "duration": "8-10 minutes",
+            "purpose": "Pakistani success story or case study related to topic",
+            "urdu_name": "Hamari Kahani"
+        },
+        "main_topic_part2": {
+            "duration": "10-12 minutes",
+            "purpose": "Practical application, tools, and implementation",
+            "urdu_name": "Aaj ka Mauzu - Doosra Hissa"
         },
         "leadership_lens": {
-            "duration": "4-5 minutes",
-            "purpose": "Leadership insight connected to tech topic",
+            "duration": "8-10 minutes",
+            "purpose": "Leadership insights and decision-making frameworks",
             "urdu_name": "Leadership ka Sabaq"
         },
-        "pakistan_perspective": {
-            "duration": "3-4 minutes",
-            "purpose": "Local context, opportunities, success stories",
-            "urdu_name": "Hamara Pakistan"
+        "aap_ke_sawaal": {
+            "duration": "8-10 minutes",
+            "purpose": "Answering listener questions from the week",
+            "urdu_name": "Aap ke Sawaal"
         },
         "action_steps": {
-            "duration": "3-4 minutes",
-            "purpose": "Practical takeaways listeners can apply today",
+            "duration": "5-7 minutes",
+            "purpose": "5 practical takeaways listeners can apply this week",
             "urdu_name": "Aaj Hi Karein"
         },
         "closing": {
-            "duration": "2-3 minutes",
-            "purpose": "Inspire, preview next episode, call to action",
+            "duration": "3-5 minutes",
+            "purpose": "Inspire, next episode preview, community call to action",
             "urdu_name": "Alvida"
         }
     }
@@ -269,49 +291,81 @@ Cultural Context:
 - Community and helping others succeed
 
 ═══════════════════════════════════════════════════════════════════
-GENERATE SCRIPT WITH THESE SEGMENTS
+SHOW FORMAT: 1 HOUR EPISODE (2 Episodes Per Week)
 ═══════════════════════════════════════════════════════════════════
 
-1. AGHAZ / OPENING (2-3 minutes)
-   - Start with energetic "Assalam-u-Alaikum!"
-   - Show signature and tagline
-   - Hook with relatable Pakistani scenario
-   - Introduce topic with "Aaj hum baat karenge..."
-   - Why this matters: "Yeh aapke liye kyun zaroori hai..."
+GENERATE SCRIPT WITH THESE 9 SEGMENTS:
 
-2. TECH KI DUNIYA / TECH SPOTLIGHT (5-7 minutes)
-   - Explain concept in simple Urdu first, then English terms
-   - Use Pakistani analogies: "Jaise chai ki tapri pe...", "Jaise Sunday bazaar mein..."
-   - Real examples from Pakistani context
-   - Break jargon: "Machine Learning, yaani computer ko seekhna sikhaana"
+1. AGHAZ / OPENING (5 minutes)
+   - Energetic "Assalam-u-Alaikum!" with signature jingle
+   - Show tagline: "Sochein behtar, faisla karein smarter, aagey barhein!"
+   - Quick recap of last episode highlights
+   - Today's topic introduction with hook
+   - "Aaj ka episode bohat khaas hai kyunke..."
+   - Roadmap of what's coming in this hour
 
-3. LEADERSHIP KA SABAQ / LEADERSHIP LENS (4-5 minutes)
-   - Connect to Pakistani leadership context
-   - Reference Pakistani business leaders' mindset
-   - Decision frameworks for our culture
-   - "Ek acha leader kaise sochta hai..."
+2. TECH KHABRAIN / TECH NEWS (8-10 minutes)
+   - 3-4 major tech news from the week
+   - Each news: What happened + Pakistan impact
+   - "Yeh khabar Pakistan ke liye kyun important hai..."
+   - Quick takes and opinions
+   - What listeners should watch/do
 
-4. HAMARA PAKISTAN / PAKISTAN PERSPECTIVE (3-4 minutes)
-   - Specific opportunities in Pakistan
-   - Success stories: "Ek bhai Faisalabad se..."
-   - Challenges we face honestly: "Haan, mushkilaat hain, lekin..."
-   - Call to build Pakistan through tech
+3. AAJ KA MAUZU - PEHLA HISSA / MAIN TOPIC PART 1 (12-15 minutes)
+   - Deep dive into core concept
+   - Start with "Sab se pehle samajhte hain ke yeh hai kya..."
+   - Explain fundamentals in simple Urdu, then English terms
+   - Multiple Pakistani analogies (chai, cricket, bazaar, family)
+   - Historical context if relevant
+   - "Ab tak aap samajh gaye honge ke..."
 
-5. AAJ HI KAREIN / ACTION STEPS (3-4 minutes)
-   - 3 specific actions in Urdu/English mix
-   - Free resources (consider Pakistani internet/budget constraints)
-   - Small experiments: "Aaj raat try karein..."
-   - Accountability: "Apne aap se waada karein..."
+4. HAMARI KAHANI / OUR STORY (8-10 minutes)
+   - Pakistani success story related to today's topic
+   - Real person from a Pakistani city
+   - Their journey: challenges faced (load shedding, connectivity, family)
+   - How they overcame and succeeded
+   - Numbers and achievements
+   - "Agar woh kar sakte hain, toh aap bhi..."
 
-6. ALVIDA / CLOSING (2-3 minutes)
-   - Key takeaway in one Urdu sentence
-   - Motivational close: "Yaad rakhein, Pakistan ka mustaqbil..."
-   - Call to action: Share, subscribe
-   - Signature sign-off: "Bharte chalo, seekhte raho, aagey barhte raho!"
-   - "Allah Hafiz, phir milenge!"
+5. AAJ KA MAUZU - DOOSRA HISSA / MAIN TOPIC PART 2 (10-12 minutes)
+   - Practical application of the concept
+   - Tools and resources (free/affordable for Pakistan)
+   - Step-by-step implementation guide
+   - Common mistakes to avoid
+   - "Ab dekhte hain ke practically kaise karein..."
+
+6. LEADERSHIP KA SABAQ / LEADERSHIP LENS (8-10 minutes)
+   - Leadership angle on today's topic
+   - Decision-making frameworks
+   - How Pakistani leaders should think about this
+   - Team and organization implications
+   - "Agar aap leader hain ya banna chahte hain..."
+
+7. AAP KE SAWAAL / YOUR QUESTIONS (8-10 minutes)
+   - Answer 3-4 listener questions from the week
+   - Acknowledge listener by city: "Yeh sawaal aaya hai Lahore se..."
+   - Practical, actionable answers
+   - Encourage more questions for next episode
+   - "Apne sawaal zaroor bhejein..."
+
+8. AAJ HI KAREIN / ACTION STEPS (5-7 minutes)
+   - 5 specific actions for this week
+   - Free resources with Pakistani access in mind
+   - Simple experiments to try tonight
+   - Accountability challenge
+   - "Is hafte yeh 5 cheezein zaroor karein..."
+
+9. ALVIDA / CLOSING (3-5 minutes)
+   - 3 key takeaways in memorable Urdu sentences
+   - Motivational close: "Pakistan ka mustaqbil aap hain..."
+   - Next episode teaser
+   - Call to action: Share, subscribe, send questions
+   - Community shoutouts
+   - "Bharte chalo, seekhte raho, aagey barhte raho!"
+   - "Allah Hafiz, agli episode mein milte hain!"
 
 ═══════════════════════════════════════════════════════════════════
-OUTPUT FORMAT
+OUTPUT FORMAT (1-HOUR EPISODE)
 ═══════════════════════════════════════════════════════════════════
 
 Return as JSON:
@@ -322,49 +376,100 @@ Return as JSON:
     "theme": "{theme}",
     "theme_urdu": "{urdu_theme}",
     "topic": "{topic}",
-    "total_duration": "20-25 minutes",
+    "total_duration": "1 hour (60 minutes)",
+    "episodes_per_week": 2,
     "language_mix": "{language_balance}",
     "segments": {{
         "opening": {{
             "urdu_name": "Aghaz",
-            "duration": "2-3 minutes",
-            "script": "Full bilingual script with natural English-Urdu mix",
-            "music_cues": ["Energetic Pakistani-fusion intro music", "fade under"],
-            "key_urdu_phrases": ["phrases used"]
+            "duration": "5 minutes",
+            "script": "Full bilingual script with energy and hook",
+            "music_cues": ["Signature jingle - 10 sec", "Energetic Pakistani-fusion intro", "fade under"],
+            "key_urdu_phrases": ["phrases used"],
+            "last_episode_recap": "Brief recap points"
         }},
-        "tech_spotlight": {{
-            "urdu_name": "Tech ki Duniya",
-            "duration": "5-7 minutes",
-            "script": "Full bilingual script",
+        "tech_khabrain": {{
+            "urdu_name": "Tech Khabrain",
+            "duration": "8-10 minutes",
+            "script": "Full bilingual news commentary",
+            "news_items": [
+                {{"headline": "news 1", "pakistan_impact": "impact"}},
+                {{"headline": "news 2", "pakistan_impact": "impact"}},
+                {{"headline": "news 3", "pakistan_impact": "impact"}}
+            ],
+            "music_cues": ["News transition sound"],
+            "key_urdu_phrases": []
+        }},
+        "main_topic_part1": {{
+            "urdu_name": "Aaj ka Mauzu - Pehla Hissa",
+            "duration": "12-15 minutes",
+            "script": "Full bilingual deep-dive script",
+            "concepts_covered": ["concept1", "concept2"],
+            "analogies_used": ["Pakistani analogies"],
+            "music_cues": ["Soft background music"],
+            "key_urdu_phrases": []
+        }},
+        "hamari_kahani": {{
+            "urdu_name": "Hamari Kahani",
+            "duration": "8-10 minutes",
+            "script": "Full bilingual success story script",
+            "story_person": "Name/description",
+            "story_city": "Pakistani city",
+            "challenges_shown": ["challenge1", "challenge2"],
+            "music_cues": ["Inspirational music under"],
+            "key_urdu_phrases": []
+        }},
+        "main_topic_part2": {{
+            "urdu_name": "Aaj ka Mauzu - Doosra Hissa",
+            "duration": "10-12 minutes",
+            "script": "Full bilingual practical guide script",
+            "tools_mentioned": ["tool1", "tool2"],
+            "steps": ["step1", "step2", "step3"],
             "music_cues": [],
             "key_urdu_phrases": []
         }},
         "leadership_lens": {{
             "urdu_name": "Leadership ka Sabaq",
-            "duration": "4-5 minutes",
-            "script": "Full bilingual script",
+            "duration": "8-10 minutes",
+            "script": "Full bilingual leadership insights script",
+            "frameworks": ["framework1"],
             "music_cues": [],
             "key_urdu_phrases": []
         }},
-        "pakistan_perspective": {{
-            "urdu_name": "Hamara Pakistan",
-            "duration": "3-4 minutes",
-            "script": "Full bilingual script",
-            "music_cues": ["Soft patriotic music under"],
+        "aap_ke_sawaal": {{
+            "urdu_name": "Aap ke Sawaal",
+            "duration": "8-10 minutes",
+            "script": "Full bilingual Q&A script",
+            "questions_answered": [
+                {{"question": "Q1", "city": "Karachi", "answer_summary": "brief"}},
+                {{"question": "Q2", "city": "Lahore", "answer_summary": "brief"}},
+                {{"question": "Q3", "city": "Islamabad", "answer_summary": "brief"}}
+            ],
+            "music_cues": ["Q&A jingle"],
             "key_urdu_phrases": []
         }},
         "action_steps": {{
             "urdu_name": "Aaj Hi Karein",
-            "duration": "3-4 minutes",
-            "script": "Full bilingual script",
+            "duration": "5-7 minutes",
+            "script": "Full bilingual action steps script",
+            "actions": [
+                {{"action": "Action 1", "time_needed": "5 min"}},
+                {{"action": "Action 2", "time_needed": "10 min"}},
+                {{"action": "Action 3", "time_needed": "15 min"}},
+                {{"action": "Action 4", "time_needed": "30 min"}},
+                {{"action": "Action 5", "time_needed": "ongoing"}}
+            ],
+            "free_resources": ["resource1", "resource2"],
             "music_cues": [],
             "key_urdu_phrases": []
         }},
         "closing": {{
             "urdu_name": "Alvida",
-            "duration": "2-3 minutes",
-            "script": "Full bilingual script",
-            "music_cues": ["Show theme music swells", "fade out"],
+            "duration": "3-5 minutes",
+            "script": "Full bilingual closing script",
+            "key_takeaways": ["takeaway1", "takeaway2", "takeaway3"],
+            "next_episode_teaser": "What's coming next",
+            "music_cues": ["Theme music swells", "Signature outro - 10 sec"],
             "key_urdu_phrases": []
         }}
     }},
@@ -373,8 +478,13 @@ Return as JSON:
         {{"term": "AI", "urdu_explanation": "Computer ko insaan ki tarah sochna"}}
     ],
     "pakistan_references": ["All Pakistan-specific examples used"],
-    "quotable_moments": ["Tweetable bilingual quotes"],
-    "resources_mentioned": ["Resources considering Pakistani access/budget"]
+    "quotable_moments": ["Tweetable bilingual quotes - at least 5"],
+    "resources_mentioned": ["All resources with Pakistani access notes"],
+    "listener_engagement": {{
+        "questions_to_ask": ["Questions to collect from listeners"],
+        "challenge_of_week": "Weekly challenge for community",
+        "social_hashtag": "#BharteChalo"
+    }}
 }}
 """
 
@@ -941,11 +1051,12 @@ Return as JSON:
         output.append("---")
         output.append("")
 
-        # Segments
+        # Segments (1-hour format with 9 segments)
         segments = script.get("segments", {})
         segment_order = [
-            "opening", "tech_spotlight", "leadership_lens",
-            "pakistan_perspective", "action_steps", "closing"
+            "opening", "tech_khabrain", "main_topic_part1",
+            "hamari_kahani", "main_topic_part2", "leadership_lens",
+            "aap_ke_sawaal", "action_steps", "closing"
         ]
 
         for seg_name in segment_order:
