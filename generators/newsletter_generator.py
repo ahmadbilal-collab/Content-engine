@@ -324,7 +324,8 @@ class NewsletterGenerator:
         # Main insight
         if newsletter.get("main_insight"):
             insight = newsletter["main_insight"]
-            md.append(f"## {insight.get('headline', 'This Week\\'s Insight')}")
+            default_headline = "This Week's Insight"
+            md.append(f"## {insight.get('headline', default_headline)}")
             md.append("")
             md.append(insight.get("body", ""))
             md.append("")
