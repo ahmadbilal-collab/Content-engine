@@ -114,11 +114,75 @@ class RadioScriptGenerator:
             "purpose": "Show opening, energy, host intro, topic overview, audience connection, episode roadmap",
             "urdu_name": "Aghaz",
             "subsections": [
-                "Signature greeting & jingle",
-                "Last episode recap",
-                "Today's topic hook",
-                "What's coming in this episode",
-                "Listener shoutouts"
+                {
+                    "name": "Signature Opening",
+                    "urdu_name": "Aghaz-e-Show",
+                    "duration": "1-2 minutes",
+                    "content": [
+                        "Show jingle (15 seconds)",
+                        "Energetic 'Assalam-u-Alaikum Pakistan!'",
+                        "Show tagline: 'Sochein Behtar, Faisla Karein Smarter, Aagey Barhein!'",
+                        "Today's date and episode number",
+                        "Quick energy hook: 'Aaj ka episode aapko...' "
+                    ]
+                },
+                {
+                    "name": "Host's Desk",
+                    "urdu_name": "Mezbaan ki Baat",
+                    "duration": "2-3 minutes",
+                    "content": [
+                        "Personal touch - What's on host's mind",
+                        "Something interesting from the week",
+                        "Connect with current Pakistani context (weather, events, mood)",
+                        "Why today's topic matters personally",
+                        "Warm conversation with audience"
+                    ]
+                },
+                {
+                    "name": "Last Episode Recap",
+                    "urdu_name": "Pichla Episode",
+                    "duration": "2 minutes",
+                    "content": [
+                        "Quick 3-point recap of last episode",
+                        "Listener feedback on last episode",
+                        "Any follow-ups or corrections",
+                        "Bridge to today's content"
+                    ]
+                },
+                {
+                    "name": "Today's Episode Preview",
+                    "urdu_name": "Aaj ka Agenda",
+                    "duration": "2-3 minutes",
+                    "content": [
+                        "Main topic introduction with hook",
+                        "Why this matters for Pakistani listeners",
+                        "What listeners will learn",
+                        "Preview of all 5 segments",
+                        "Special mentions (guests, features)"
+                    ]
+                },
+                {
+                    "name": "Listener Connect",
+                    "urdu_name": "Saameen ke Saath",
+                    "duration": "2-3 minutes",
+                    "content": [
+                        "Shoutouts by city (Karachi, Lahore, Islamabad, etc.)",
+                        "New listener welcomes",
+                        "Social media highlights",
+                        "Community achievements",
+                        "Encourage engagement: 'Humein WhatsApp karein...'"
+                    ]
+                },
+                {
+                    "name": "Quote of the Day",
+                    "urdu_name": "Aaj ka Quote",
+                    "duration": "1 minute",
+                    "content": [
+                        "Inspirational bilingual quote",
+                        "Brief reflection on the quote",
+                        "How it connects to today's theme"
+                    ]
+                }
             ]
         },
         "field": {
@@ -126,11 +190,78 @@ class RadioScriptGenerator:
             "purpose": "On-ground practical content, real-world applications, hands-on learning, case studies",
             "urdu_name": "Maidan Se",
             "subsections": [
-                "Real-world scenario/problem",
-                "Step-by-step practical guide",
-                "Tools and resources",
-                "Common mistakes to avoid",
-                "Success metrics"
+                {
+                    "name": "The Challenge",
+                    "urdu_name": "Masla Kya Hai",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Present a real-world problem/scenario",
+                        "Relatable Pakistani context",
+                        "Why this challenge exists",
+                        "Personal story or listener question",
+                        "Set the stakes: 'Agar yeh solve na ho toh...'"
+                    ]
+                },
+                {
+                    "name": "Breaking It Down",
+                    "urdu_name": "Samajhte Hain",
+                    "duration": "4 minutes",
+                    "content": [
+                        "Deep analysis of the problem",
+                        "Technical concepts explained simply",
+                        "Pakistani analogies (chai, cricket, bazaar)",
+                        "Root cause understanding",
+                        "Why traditional approaches fail"
+                    ]
+                },
+                {
+                    "name": "Step-by-Step Guide",
+                    "urdu_name": "Qadam Ba Qadam",
+                    "duration": "5 minutes",
+                    "content": [
+                        "Clear numbered steps (5-7 steps)",
+                        "Each step explained with example",
+                        "Pakistani-specific considerations",
+                        "What to do if stuck at each step",
+                        "Time estimates for Pakistani context"
+                    ]
+                },
+                {
+                    "name": "Tools & Resources",
+                    "urdu_name": "Audzaar aur Resources",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Free tools available in Pakistan",
+                        "Mobile-friendly options",
+                        "Data-light alternatives",
+                        "YouTube tutorials in Urdu",
+                        "WhatsApp groups and communities"
+                    ]
+                },
+                {
+                    "name": "Common Mistakes",
+                    "urdu_name": "Yeh Galtiyan Mat Karein",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Top 3-5 mistakes beginners make",
+                        "Why these mistakes happen",
+                        "Real examples from Pakistani freelancers",
+                        "How to avoid each mistake",
+                        "Warning signs to watch for"
+                    ]
+                },
+                {
+                    "name": "Quick Win",
+                    "urdu_name": "Abhi Karein",
+                    "duration": "2 minutes",
+                    "content": [
+                        "One actionable thing to do TODAY",
+                        "Takes less than 15 minutes",
+                        "Requires no money",
+                        "Immediate visible result",
+                        "Challenge: 'Yeh kar ke humein batayein...'"
+                    ]
+                }
             ]
         },
         "pakistan": {
@@ -138,11 +269,80 @@ class RadioScriptGenerator:
             "purpose": "Pakistan-focused content, local success stories, Pakistani tech ecosystem, opportunities",
             "urdu_name": "Hamara Pakistan",
             "subsections": [
-                "Pakistani success story",
-                "Local industry spotlight",
-                "Pakistan-specific opportunities",
-                "Challenges and solutions",
-                "Call to action for Pakistan"
+                {
+                    "name": "Pakistan Success Spotlight",
+                    "urdu_name": "Kamyabi ki Kahani",
+                    "duration": "4 minutes",
+                    "content": [
+                        "Featured Pakistani achiever (name, city, story)",
+                        "Their journey from zero to success",
+                        "Challenges they faced (load shedding, etc.)",
+                        "How they overcame obstacles",
+                        "Their advice for listeners",
+                        "Contact/follow information"
+                    ]
+                },
+                {
+                    "name": "Industry Watch",
+                    "urdu_name": "Industry ki Nazar",
+                    "duration": "4 minutes",
+                    "content": [
+                        "Featured Pakistani industry deep-dive",
+                        "Current state and growth numbers",
+                        "Major players in Pakistan",
+                        "Entry opportunities for newcomers",
+                        "Skills required",
+                        "Salary/earning potential"
+                    ]
+                },
+                {
+                    "name": "Startup Corner",
+                    "urdu_name": "Startup Ghar",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Featured Pakistani startup",
+                        "What problem they're solving",
+                        "Funding and growth news",
+                        "Jobs and opportunities",
+                        "Lessons for aspiring entrepreneurs"
+                    ]
+                },
+                {
+                    "name": "Freelancer Focus",
+                    "urdu_name": "Freelancer ki Baat",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Freelancing tips for Pakistani market",
+                        "Platform updates (Upwork, Fiverr, etc.)",
+                        "Dollar rate impact and strategies",
+                        "Client communication tips",
+                        "Success story or tip from top freelancer"
+                    ]
+                },
+                {
+                    "name": "City Spotlight",
+                    "urdu_name": "Shehr ki Roshni",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Featured Pakistani city tech scene",
+                        "Co-working spaces and tech hubs",
+                        "Local communities and meetups",
+                        "Internet and infrastructure status",
+                        "Opportunities specific to that city"
+                    ]
+                },
+                {
+                    "name": "Pakistan Opportunities",
+                    "urdu_name": "Mauke hi Mauke",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Current job openings in Pakistan",
+                        "Internship opportunities",
+                        "Government initiatives and schemes",
+                        "Upcoming events and conferences",
+                        "How to apply/participate"
+                    ]
+                }
             ]
         },
         "international": {
@@ -150,11 +350,81 @@ class RadioScriptGenerator:
             "purpose": "Global tech trends, international perspectives, world innovations, global opportunities",
             "urdu_name": "Duniya Bhar Se",
             "subsections": [
-                "Global trend spotlight",
-                "International case study",
-                "What world leaders are doing",
-                "Global opportunities for Pakistanis",
-                "Lessons from abroad"
+                {
+                    "name": "Global Headlines",
+                    "urdu_name": "Duniya ki Headlines",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Top 3 international tech stories",
+                        "Quick summary of each",
+                        "Why it matters globally",
+                        "Pakistan connection for each",
+                        "Sources to read more"
+                    ]
+                },
+                {
+                    "name": "Innovation Spotlight",
+                    "urdu_name": "Nayi Ijad",
+                    "duration": "4 minutes",
+                    "content": [
+                        "Featured global innovation/technology",
+                        "How it works (simple explanation)",
+                        "Who created it and why",
+                        "Current applications",
+                        "When it might reach Pakistan",
+                        "Opportunity for Pakistani developers"
+                    ]
+                },
+                {
+                    "name": "Country Focus",
+                    "urdu_name": "Mulk ki Nazar",
+                    "duration": "4 minutes",
+                    "content": [
+                        "Deep dive into one country's tech scene",
+                        "What they're doing right",
+                        "Government policies that work",
+                        "Tech culture and work style",
+                        "What Pakistan can learn",
+                        "Opportunities for Pakistanis there"
+                    ]
+                },
+                {
+                    "name": "Global Giants",
+                    "urdu_name": "Bari Companies",
+                    "duration": "3 minutes",
+                    "content": [
+                        "News from Google, Microsoft, Meta, etc.",
+                        "Product launches and updates",
+                        "Business strategy changes",
+                        "Jobs at these companies from Pakistan",
+                        "How to prepare for global tech careers"
+                    ]
+                },
+                {
+                    "name": "Remote Work Radar",
+                    "urdu_name": "Remote Kaam",
+                    "duration": "3 minutes",
+                    "content": [
+                        "International remote job opportunities",
+                        "Companies hiring from Pakistan",
+                        "Salary ranges in dollars",
+                        "Skills in demand globally",
+                        "How to apply and stand out",
+                        "Visa and payment considerations"
+                    ]
+                },
+                {
+                    "name": "Global Lessons",
+                    "urdu_name": "Duniya se Seekhein",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Key lesson from international tech world",
+                        "Failure story and what went wrong",
+                        "Success story and what worked",
+                        "How to apply this in Pakistan",
+                        "Avoiding others' mistakes"
+                    ]
+                }
             ]
         },
         "news": {
@@ -162,11 +432,95 @@ class RadioScriptGenerator:
             "purpose": "Tech news roundup, AI updates, industry announcements, what's trending this week",
             "urdu_name": "Tech Khabrain",
             "subsections": [
-                "Top 5 tech news of the week",
-                "AI/ML updates",
-                "Startup funding news",
-                "Pakistan tech news",
-                "What to watch next week"
+                {
+                    "name": "Headlines Roundup",
+                    "urdu_name": "Headlines",
+                    "duration": "4 minutes",
+                    "content": [
+                        "Top 5 tech news of the week",
+                        "Quick 30-second summary each",
+                        "Host's take on each story",
+                        "Which news is most important for Pakistan",
+                        "Links and sources"
+                    ]
+                },
+                {
+                    "name": "AI Update",
+                    "urdu_name": "AI ki Khabrain",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Latest AI and ML news",
+                        "New AI tools released",
+                        "ChatGPT, Gemini, Claude updates",
+                        "AI research breakthroughs",
+                        "How to use new AI features",
+                        "AI jobs and opportunities"
+                    ]
+                },
+                {
+                    "name": "Funding & Investment",
+                    "urdu_name": "Paisa aur Investment",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Startup funding news",
+                        "Pakistani startups that raised money",
+                        "International VC trends",
+                        "What investors are looking for",
+                        "Impact on job market"
+                    ]
+                },
+                {
+                    "name": "Pakistan Tech News",
+                    "urdu_name": "Pakistan Tech Khabrain",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Local tech ecosystem news",
+                        "Government tech announcements",
+                        "Pakistani company updates",
+                        "IT export and freelancing stats",
+                        "Events and conferences"
+                    ]
+                },
+                {
+                    "name": "App/Tool of the Week",
+                    "urdu_name": "Hafte ka App",
+                    "duration": "2 minutes",
+                    "content": [
+                        "Featured app or tool review",
+                        "What it does and who it's for",
+                        "Free vs paid features",
+                        "Works in Pakistan? Data usage?",
+                        "Host's personal rating"
+                    ]
+                },
+                {
+                    "name": "Next Week Preview",
+                    "urdu_name": "Agle Hafte",
+                    "duration": "2 minutes",
+                    "content": [
+                        "What to watch next week",
+                        "Upcoming product launches",
+                        "Events and deadlines",
+                        "What Bharte Chalo will cover",
+                        "Tease next episode topic"
+                    ]
+                },
+                {
+                    "name": "Closing & Sign-off",
+                    "urdu_name": "Alvida",
+                    "duration": "3 minutes",
+                    "content": [
+                        "Episode summary: 'Aaj humne seekha...'",
+                        "Key takeaways (3 points)",
+                        "Call to action for listeners",
+                        "How to reach out (WhatsApp, email, social)",
+                        "Sponsor thanks (if any)",
+                        "Motivational closing: 'Bharte Chalo, Seekhte Raho!'",
+                        "Next episode teaser with date",
+                        "'Allah Hafiz Pakistan!'",
+                        "Closing jingle"
+                    ]
+                }
             ]
         }
     }
@@ -308,72 +662,263 @@ Cultural Context:
 - Community and helping others succeed
 
 ═══════════════════════════════════════════════════════════════════
-SHOW FORMAT: 90 MINUTE EPISODE (2 Episodes Per Week)
+SHOW FORMAT: 90 MINUTE EPISODE WITH DETAILED SUB-SEGMENTS
 ═══════════════════════════════════════════════════════════════════
 
-GENERATE SCRIPT WITH THESE 5 SEGMENTS:
+GENERATE COMPREHENSIVE HIGH-CONTENT RADIO SCRIPT WITH THESE 5 SEGMENTS,
+EACH WITH MULTIPLE SUB-SEGMENTS. WRITE FULL SCRIPTS FOR EVERY SUB-SEGMENT.
 
-1. AGHAZ / INTRO (10-15 minutes)
-   - Energetic "Assalam-u-Alaikum!" with signature jingle
-   - Show tagline: "Sochein behtar, faisla karein smarter, aagey barhein!"
-   - Host introduction and personal touch
-   - Last episode recap highlights
-   - Today's episode overview and roadmap
-   - Listener shoutouts and community highlights
-   - "Aaj ka episode bohat khaas hai kyunke..."
-   - Set the energy and hook for 90 minutes
+══════════════════════════════════════════════════════════════
+SEGMENT 1: AGHAZ / INTRO (10-15 minutes)
+══════════════════════════════════════════════════════════════
 
-2. MAIDAN SE / FIELD (20 minutes)
-   - On-ground, practical, real-world content
-   - "Ab chalte hain maidan mein..."
-   - Real-world scenario or problem statement
-   - Step-by-step practical implementation guide
-   - Tools, apps, and resources (free/affordable)
-   - Live examples and demonstrations
-   - Common mistakes and how to avoid them
-   - Success metrics and benchmarks
-   - "Practically kaise karein, dekhte hain..."
+SUB-SEGMENT 1.1: SIGNATURE OPENING (Aghaz-e-Show) - 1-2 min
+- Show jingle (15 seconds)
+- Energetic "Assalam-u-Alaikum Pakistan!"
+- Show tagline: "Sochein Behtar, Faisla Karein Smarter, Aagey Barhein!"
+- Today's date and episode number
+- Quick energy hook: "Aaj ka episode aapko..."
 
-3. HAMARA PAKISTAN / PAKISTAN (20 minutes)
-   - Pakistan-focused deep dive
-   - "Ab baat karte hain apne Pakistan ki..."
-   - Pakistani success story (real person, real city)
-   - Local industry spotlight and opportunities
-   - Pakistan-specific challenges and solutions
-   - Freelancing and IT export opportunities
-   - Pakistani startups and innovators
-   - Government initiatives and policies
-   - Call to action for building Pakistan
-   - "Pakistan ka mustaqbil bright hai..."
+SUB-SEGMENT 1.2: HOST'S DESK (Mezbaan ki Baat) - 2-3 min
+- Personal touch - What's on host's mind
+- Something interesting from the week
+- Connect with current Pakistani context (weather, events, mood)
+- Why today's topic matters personally
+- Warm conversation with audience
 
-4. DUNIYA BHAR SE / INTERNATIONAL (20 minutes)
-   - Global perspective and trends
-   - "Ab nazar daalte hain duniya bhar pe..."
-   - International tech trends and innovations
-   - Global case studies and success stories
-   - What Silicon Valley, Europe, China are doing
-   - Global opportunities for Pakistani talent
-   - Remote work and international careers
-   - Lessons from international leaders
-   - How global trends affect Pakistan
-   - "Duniya mein kya ho raha hai..."
+SUB-SEGMENT 1.3: LAST EPISODE RECAP (Pichla Episode) - 2 min
+- Quick 3-point recap of last episode
+- Listener feedback on last episode
+- Any follow-ups or corrections
+- Bridge to today's content
 
-5. TECH KHABRAIN / NEWS (20 minutes)
-   - Comprehensive tech news roundup
-   - "Ab aate hain is hafte ki tech khabrain pe..."
-   - Top 5-7 tech news of the week
-   - AI and Machine Learning updates
-   - Startup funding and investment news
-   - Pakistan tech ecosystem news
-   - Product launches and updates
-   - What to watch next week
-   - Quick takes and opinions on each news
-   - Closing thoughts and next episode teaser
-   - "Allah Hafiz, agli episode mein milte hain!"
+SUB-SEGMENT 1.4: TODAY'S EPISODE PREVIEW (Aaj ka Agenda) - 2-3 min
+- Main topic introduction with hook
+- Why this matters for Pakistani listeners
+- What listeners will learn
+- Preview of all 5 segments
+- Special mentions (guests, features)
+
+SUB-SEGMENT 1.5: LISTENER CONNECT (Saameen ke Saath) - 2-3 min
+- Shoutouts by city (Karachi, Lahore, Islamabad, etc.)
+- New listener welcomes
+- Social media highlights
+- Community achievements
+- Encourage engagement: "Humein WhatsApp karein..."
+
+SUB-SEGMENT 1.6: QUOTE OF THE DAY (Aaj ka Quote) - 1 min
+- Inspirational bilingual quote
+- Brief reflection on the quote
+- How it connects to today's theme
+
+══════════════════════════════════════════════════════════════
+SEGMENT 2: MAIDAN SE / FIELD (20 minutes)
+══════════════════════════════════════════════════════════════
+
+SUB-SEGMENT 2.1: THE CHALLENGE (Masla Kya Hai) - 3 min
+- Present a real-world problem/scenario
+- Relatable Pakistani context
+- Why this challenge exists
+- Personal story or listener question
+- Set the stakes: "Agar yeh solve na ho toh..."
+
+SUB-SEGMENT 2.2: BREAKING IT DOWN (Samajhte Hain) - 4 min
+- Deep analysis of the problem
+- Technical concepts explained simply
+- Pakistani analogies (chai, cricket, bazaar)
+- Root cause understanding
+- Why traditional approaches fail
+
+SUB-SEGMENT 2.3: STEP-BY-STEP GUIDE (Qadam Ba Qadam) - 5 min
+- Clear numbered steps (5-7 steps)
+- Each step explained with example
+- Pakistani-specific considerations
+- What to do if stuck at each step
+- Time estimates for Pakistani context
+
+SUB-SEGMENT 2.4: TOOLS & RESOURCES (Audzaar aur Resources) - 3 min
+- Free tools available in Pakistan
+- Mobile-friendly options
+- Data-light alternatives
+- YouTube tutorials in Urdu
+- WhatsApp groups and communities
+
+SUB-SEGMENT 2.5: COMMON MISTAKES (Yeh Galtiyan Mat Karein) - 3 min
+- Top 3-5 mistakes beginners make
+- Why these mistakes happen
+- Real examples from Pakistani freelancers
+- How to avoid each mistake
+- Warning signs to watch for
+
+SUB-SEGMENT 2.6: QUICK WIN (Abhi Karein) - 2 min
+- One actionable thing to do TODAY
+- Takes less than 15 minutes
+- Requires no money
+- Immediate visible result
+- Challenge: "Yeh kar ke humein batayein..."
+
+══════════════════════════════════════════════════════════════
+SEGMENT 3: HAMARA PAKISTAN / PAKISTAN (20 minutes)
+══════════════════════════════════════════════════════════════
+
+SUB-SEGMENT 3.1: PAKISTAN SUCCESS SPOTLIGHT (Kamyabi ki Kahani) - 4 min
+- Featured Pakistani achiever (name, city, story)
+- Their journey from zero to success
+- Challenges they faced (load shedding, etc.)
+- How they overcame obstacles
+- Their advice for listeners
+- Contact/follow information
+
+SUB-SEGMENT 3.2: INDUSTRY WATCH (Industry ki Nazar) - 4 min
+- Featured Pakistani industry deep-dive
+- Current state and growth numbers
+- Major players in Pakistan
+- Entry opportunities for newcomers
+- Skills required
+- Salary/earning potential
+
+SUB-SEGMENT 3.3: STARTUP CORNER (Startup Ghar) - 3 min
+- Featured Pakistani startup
+- What problem they're solving
+- Funding and growth news
+- Jobs and opportunities
+- Lessons for aspiring entrepreneurs
+
+SUB-SEGMENT 3.4: FREELANCER FOCUS (Freelancer ki Baat) - 3 min
+- Freelancing tips for Pakistani market
+- Platform updates (Upwork, Fiverr, etc.)
+- Dollar rate impact and strategies
+- Client communication tips
+- Success story or tip from top freelancer
+
+SUB-SEGMENT 3.5: CITY SPOTLIGHT (Shehr ki Roshni) - 3 min
+- Featured Pakistani city tech scene
+- Co-working spaces and tech hubs
+- Local communities and meetups
+- Internet and infrastructure status
+- Opportunities specific to that city
+
+SUB-SEGMENT 3.6: PAKISTAN OPPORTUNITIES (Mauke hi Mauke) - 3 min
+- Current job openings in Pakistan
+- Internship opportunities
+- Government initiatives and schemes
+- Upcoming events and conferences
+- How to apply/participate
+
+══════════════════════════════════════════════════════════════
+SEGMENT 4: DUNIYA BHAR SE / INTERNATIONAL (20 minutes)
+══════════════════════════════════════════════════════════════
+
+SUB-SEGMENT 4.1: GLOBAL HEADLINES (Duniya ki Headlines) - 3 min
+- Top 3 international tech stories
+- Quick summary of each
+- Why it matters globally
+- Pakistan connection for each
+- Sources to read more
+
+SUB-SEGMENT 4.2: INNOVATION SPOTLIGHT (Nayi Ijad) - 4 min
+- Featured global innovation/technology
+- How it works (simple explanation)
+- Who created it and why
+- Current applications
+- When it might reach Pakistan
+- Opportunity for Pakistani developers
+
+SUB-SEGMENT 4.3: COUNTRY FOCUS (Mulk ki Nazar) - 4 min
+- Deep dive into one country's tech scene
+- What they're doing right
+- Government policies that work
+- Tech culture and work style
+- What Pakistan can learn
+- Opportunities for Pakistanis there
+
+SUB-SEGMENT 4.4: GLOBAL GIANTS (Bari Companies) - 3 min
+- News from Google, Microsoft, Meta, etc.
+- Product launches and updates
+- Business strategy changes
+- Jobs at these companies from Pakistan
+- How to prepare for global tech careers
+
+SUB-SEGMENT 4.5: REMOTE WORK RADAR (Remote Kaam) - 3 min
+- International remote job opportunities
+- Companies hiring from Pakistan
+- Salary ranges in dollars
+- Skills in demand globally
+- How to apply and stand out
+- Visa and payment considerations
+
+SUB-SEGMENT 4.6: GLOBAL LESSONS (Duniya se Seekhein) - 3 min
+- Key lesson from international tech world
+- Failure story and what went wrong
+- Success story and what worked
+- How to apply this in Pakistan
+- Avoiding others' mistakes
+
+══════════════════════════════════════════════════════════════
+SEGMENT 5: TECH KHABRAIN / NEWS (20 minutes)
+══════════════════════════════════════════════════════════════
+
+SUB-SEGMENT 5.1: HEADLINES ROUNDUP (Headlines) - 4 min
+- Top 5 tech news of the week
+- Quick 30-second summary each
+- Host's take on each story
+- Which news is most important for Pakistan
+- Links and sources
+
+SUB-SEGMENT 5.2: AI UPDATE (AI ki Khabrain) - 3 min
+- Latest AI and ML news
+- New AI tools released
+- ChatGPT, Gemini, Claude updates
+- AI research breakthroughs
+- How to use new AI features
+- AI jobs and opportunities
+
+SUB-SEGMENT 5.3: FUNDING & INVESTMENT (Paisa aur Investment) - 3 min
+- Startup funding news
+- Pakistani startups that raised money
+- International VC trends
+- What investors are looking for
+- Impact on job market
+
+SUB-SEGMENT 5.4: PAKISTAN TECH NEWS (Pakistan Tech Khabrain) - 3 min
+- Local tech ecosystem news
+- Government tech announcements
+- Pakistani company updates
+- IT export and freelancing stats
+- Events and conferences
+
+SUB-SEGMENT 5.5: APP/TOOL OF THE WEEK (Hafte ka App) - 2 min
+- Featured app or tool review
+- What it does and who it's for
+- Free vs paid features
+- Works in Pakistan? Data usage?
+- Host's personal rating
+
+SUB-SEGMENT 5.6: NEXT WEEK PREVIEW (Agle Hafte) - 2 min
+- What to watch next week
+- Upcoming product launches
+- Events and deadlines
+- What Bharte Chalo will cover
+- Tease next episode topic
+
+SUB-SEGMENT 5.7: CLOSING & SIGN-OFF (Alvida) - 3 min
+- Episode summary: "Aaj humne seekha..."
+- Key takeaways (3 points)
+- Call to action for listeners
+- How to reach out (WhatsApp, email, social)
+- Sponsor thanks (if any)
+- Motivational closing: "Bharte Chalo, Seekhte Raho!"
+- Next episode teaser with date
+- "Allah Hafiz Pakistan!"
+- Closing jingle
 
 ═══════════════════════════════════════════════════════════════════
-OUTPUT FORMAT (90-MINUTE EPISODE)
+OUTPUT FORMAT (HIGH-CONTENT 90-MINUTE EPISODE)
 ═══════════════════════════════════════════════════════════════════
+
+IMPORTANT: Generate FULL DETAILED SCRIPTS for EVERY sub-segment. Each sub-segment
+should have complete, broadcast-ready content. This is radio content that will be
+read on air - make it engaging, informative, and bilingual throughout.
 
 Return as JSON:
 {{
@@ -390,73 +935,239 @@ Return as JSON:
         "intro": {{
             "urdu_name": "Aghaz",
             "duration": "10-15 minutes",
-            "script": "Full bilingual intro script with energy, hook, and episode roadmap",
+            "subsegments": {{
+                "signature_opening": {{
+                    "name": "Signature Opening",
+                    "urdu_name": "Aghaz-e-Show",
+                    "duration": "1-2 minutes",
+                    "script": "FULL script with jingle cue, energetic greeting, tagline, date, hook"
+                }},
+                "hosts_desk": {{
+                    "name": "Host's Desk",
+                    "urdu_name": "Mezbaan ki Baat",
+                    "duration": "2-3 minutes",
+                    "script": "FULL script with personal touch, weekly observation, topic connection"
+                }},
+                "last_episode_recap": {{
+                    "name": "Last Episode Recap",
+                    "urdu_name": "Pichla Episode",
+                    "duration": "2 minutes",
+                    "script": "FULL script with 3-point recap and bridge"
+                }},
+                "episode_preview": {{
+                    "name": "Today's Episode Preview",
+                    "urdu_name": "Aaj ka Agenda",
+                    "duration": "2-3 minutes",
+                    "script": "FULL script previewing all 5 segments"
+                }},
+                "listener_connect": {{
+                    "name": "Listener Connect",
+                    "urdu_name": "Saameen ke Saath",
+                    "duration": "2-3 minutes",
+                    "script": "FULL script with city shoutouts and engagement"
+                }},
+                "quote_of_day": {{
+                    "name": "Quote of the Day",
+                    "urdu_name": "Aaj ka Quote",
+                    "duration": "1 minute",
+                    "script": "FULL script with bilingual quote and reflection"
+                }}
+            }},
             "music_cues": ["Signature jingle - 15 sec", "Energetic Pakistani-fusion intro", "fade under"],
-            "key_urdu_phrases": ["phrases used"],
-            "last_episode_recap": "Brief recap points",
-            "episode_roadmap": "What's coming in this episode",
-            "listener_shoutouts": ["shoutout 1", "shoutout 2"]
+            "key_urdu_phrases": ["phrases used"]
         }},
         "field": {{
             "urdu_name": "Maidan Se",
             "duration": "20 minutes",
-            "script": "Full bilingual practical/field content script",
-            "real_world_scenario": "The problem/scenario being addressed",
-            "practical_steps": ["step 1", "step 2", "step 3", "step 4", "step 5"],
-            "tools_resources": ["tool1", "tool2", "resource1"],
-            "common_mistakes": ["mistake 1", "mistake 2"],
-            "success_metrics": "How to measure success",
-            "music_cues": ["Transition sound"],
+            "subsegments": {{
+                "the_challenge": {{
+                    "name": "The Challenge",
+                    "urdu_name": "Masla Kya Hai",
+                    "duration": "3 minutes",
+                    "script": "FULL script presenting real-world problem with Pakistani context"
+                }},
+                "breaking_it_down": {{
+                    "name": "Breaking It Down",
+                    "urdu_name": "Samajhte Hain",
+                    "duration": "4 minutes",
+                    "script": "FULL script with deep analysis and Pakistani analogies"
+                }},
+                "step_by_step": {{
+                    "name": "Step-by-Step Guide",
+                    "urdu_name": "Qadam Ba Qadam",
+                    "duration": "5 minutes",
+                    "script": "FULL script with 5-7 numbered steps with examples"
+                }},
+                "tools_resources": {{
+                    "name": "Tools & Resources",
+                    "urdu_name": "Audzaar aur Resources",
+                    "duration": "3 minutes",
+                    "script": "FULL script with free tools and Pakistani-accessible resources"
+                }},
+                "common_mistakes": {{
+                    "name": "Common Mistakes",
+                    "urdu_name": "Yeh Galtiyan Mat Karein",
+                    "duration": "3 minutes",
+                    "script": "FULL script with 3-5 mistakes and how to avoid them"
+                }},
+                "quick_win": {{
+                    "name": "Quick Win",
+                    "urdu_name": "Abhi Karein",
+                    "duration": "2 minutes",
+                    "script": "FULL script with one actionable thing to do today"
+                }}
+            }},
+            "music_cues": ["Transition sound", "Practical music bed"],
             "key_urdu_phrases": []
         }},
         "pakistan": {{
             "urdu_name": "Hamara Pakistan",
             "duration": "20 minutes",
-            "script": "Full bilingual Pakistan-focused script",
-            "success_story": {{
-                "person_name": "Name",
-                "city": "Pakistani city",
-                "journey": "Their story",
-                "achievements": "What they achieved",
-                "lessons": "Key lessons"
+            "subsegments": {{
+                "success_spotlight": {{
+                    "name": "Pakistan Success Spotlight",
+                    "urdu_name": "Kamyabi ki Kahani",
+                    "duration": "4 minutes",
+                    "script": "FULL script featuring Pakistani achiever with complete story",
+                    "featured_person": {{"name": "Name", "city": "City", "achievement": "What they did"}}
+                }},
+                "industry_watch": {{
+                    "name": "Industry Watch",
+                    "urdu_name": "Industry ki Nazar",
+                    "duration": "4 minutes",
+                    "script": "FULL script with industry deep-dive and opportunities"
+                }},
+                "startup_corner": {{
+                    "name": "Startup Corner",
+                    "urdu_name": "Startup Ghar",
+                    "duration": "3 minutes",
+                    "script": "FULL script featuring Pakistani startup"
+                }},
+                "freelancer_focus": {{
+                    "name": "Freelancer Focus",
+                    "urdu_name": "Freelancer ki Baat",
+                    "duration": "3 minutes",
+                    "script": "FULL script with freelancing tips and platform updates"
+                }},
+                "city_spotlight": {{
+                    "name": "City Spotlight",
+                    "urdu_name": "Shehr ki Roshni",
+                    "duration": "3 minutes",
+                    "script": "FULL script featuring a Pakistani city tech scene",
+                    "featured_city": "City name"
+                }},
+                "opportunities": {{
+                    "name": "Pakistan Opportunities",
+                    "urdu_name": "Mauke hi Mauke",
+                    "duration": "3 minutes",
+                    "script": "FULL script with current jobs, events, schemes"
+                }}
             }},
-            "industry_spotlight": "Which Pakistani industry/sector",
-            "opportunities": ["opportunity 1", "opportunity 2"],
-            "challenges_solutions": ["challenge: solution"],
-            "call_to_action": "What listeners should do for Pakistan",
             "music_cues": ["Patriotic undertone music"],
             "key_urdu_phrases": []
         }},
         "international": {{
             "urdu_name": "Duniya Bhar Se",
             "duration": "20 minutes",
-            "script": "Full bilingual international perspective script",
-            "global_trend": "Main global trend covered",
-            "international_case_study": {{
-                "company_person": "Name",
-                "country": "Country",
-                "story": "What they did",
-                "lessons_for_pakistan": "What Pakistan can learn"
+            "subsegments": {{
+                "global_headlines": {{
+                    "name": "Global Headlines",
+                    "urdu_name": "Duniya ki Headlines",
+                    "duration": "3 minutes",
+                    "script": "FULL script with top 3 international stories and Pakistan connection"
+                }},
+                "innovation_spotlight": {{
+                    "name": "Innovation Spotlight",
+                    "urdu_name": "Nayi Ijad",
+                    "duration": "4 minutes",
+                    "script": "FULL script explaining featured innovation simply"
+                }},
+                "country_focus": {{
+                    "name": "Country Focus",
+                    "urdu_name": "Mulk ki Nazar",
+                    "duration": "4 minutes",
+                    "script": "FULL script deep-diving into one country's tech scene",
+                    "featured_country": "Country name"
+                }},
+                "global_giants": {{
+                    "name": "Global Giants",
+                    "urdu_name": "Bari Companies",
+                    "duration": "3 minutes",
+                    "script": "FULL script with big tech company news and opportunities"
+                }},
+                "remote_work_radar": {{
+                    "name": "Remote Work Radar",
+                    "urdu_name": "Remote Kaam",
+                    "duration": "3 minutes",
+                    "script": "FULL script with remote job opportunities for Pakistanis"
+                }},
+                "global_lessons": {{
+                    "name": "Global Lessons",
+                    "urdu_name": "Duniya se Seekhein",
+                    "duration": "3 minutes",
+                    "script": "FULL script with key lessons from international tech world"
+                }}
             }},
-            "global_opportunities": ["opportunity for Pakistanis"],
-            "what_leaders_doing": "What global leaders are doing",
             "music_cues": ["World music transition"],
             "key_urdu_phrases": []
         }},
         "news": {{
             "urdu_name": "Tech Khabrain",
             "duration": "20 minutes",
-            "script": "Full bilingual news roundup and closing script",
-            "news_items": [
-                {{"headline": "news 1", "category": "AI", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
-                {{"headline": "news 2", "category": "Startups", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
-                {{"headline": "news 3", "category": "Tech", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
-                {{"headline": "news 4", "category": "Pakistan", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
-                {{"headline": "news 5", "category": "Global", "pakistan_relevance": "relevance", "quick_take": "opinion"}}
-            ],
-            "next_week_preview": "What to watch next week",
-            "closing_message": "Final motivational message",
-            "next_episode_teaser": "What's coming next",
+            "subsegments": {{
+                "headlines_roundup": {{
+                    "name": "Headlines Roundup",
+                    "urdu_name": "Headlines",
+                    "duration": "4 minutes",
+                    "script": "FULL script with top 5 news and host's take",
+                    "news_items": [
+                        {{"headline": "news 1", "category": "AI", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
+                        {{"headline": "news 2", "category": "Startups", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
+                        {{"headline": "news 3", "category": "Tech", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
+                        {{"headline": "news 4", "category": "Pakistan", "pakistan_relevance": "relevance", "quick_take": "opinion"}},
+                        {{"headline": "news 5", "category": "Global", "pakistan_relevance": "relevance", "quick_take": "opinion"}}
+                    ]
+                }},
+                "ai_update": {{
+                    "name": "AI Update",
+                    "urdu_name": "AI ki Khabrain",
+                    "duration": "3 minutes",
+                    "script": "FULL script with AI/ML specific news and tools"
+                }},
+                "funding_investment": {{
+                    "name": "Funding & Investment",
+                    "urdu_name": "Paisa aur Investment",
+                    "duration": "3 minutes",
+                    "script": "FULL script with startup funding news"
+                }},
+                "pakistan_tech_news": {{
+                    "name": "Pakistan Tech News",
+                    "urdu_name": "Pakistan Tech Khabrain",
+                    "duration": "3 minutes",
+                    "script": "FULL script with local tech ecosystem updates"
+                }},
+                "app_of_week": {{
+                    "name": "App/Tool of the Week",
+                    "urdu_name": "Hafte ka App",
+                    "duration": "2 minutes",
+                    "script": "FULL script reviewing featured app/tool",
+                    "featured_app": {{"name": "App name", "category": "Category", "rating": "4/5"}}
+                }},
+                "next_week_preview": {{
+                    "name": "Next Week Preview",
+                    "urdu_name": "Agle Hafte",
+                    "duration": "2 minutes",
+                    "script": "FULL script with what to watch next week"
+                }},
+                "closing_signoff": {{
+                    "name": "Closing & Sign-off",
+                    "urdu_name": "Alvida",
+                    "duration": "3 minutes",
+                    "script": "FULL script with episode summary, takeaways, call to action, and goodbye",
+                    "key_takeaways": ["takeaway 1", "takeaway 2", "takeaway 3"],
+                    "next_episode_teaser": "What's coming next"
+                }}
+            }},
             "music_cues": ["News jingle", "Closing theme music"],
             "key_urdu_phrases": []
         }}
@@ -1039,17 +1750,26 @@ Return as JSON:
         output.append("---")
         output.append("")
 
-        # Segments (90-minute format with 5 segments)
+        # Segments (90-minute format with 5 segments and sub-segments)
         segments = script.get("segments", {})
         segment_order = [
             "intro", "field", "pakistan", "international", "news"
         ]
 
+        segment_numbers = {
+            "intro": "1",
+            "field": "2",
+            "pakistan": "3",
+            "international": "4",
+            "news": "5"
+        }
+
         for seg_name in segment_order:
             seg = segments.get(seg_name, {})
             if seg:
                 urdu_name = seg.get('urdu_name', '')
-                output.append(f"## {seg_name.upper().replace('_', ' ')} ({urdu_name})")
+                seg_num = segment_numbers.get(seg_name, '')
+                output.append(f"## SEGMENT {seg_num}: {seg_name.upper().replace('_', ' ')} ({urdu_name})")
                 output.append(f"*Duration: {seg.get('duration', 'N/A')}*")
                 output.append("")
 
@@ -1061,10 +1781,69 @@ Return as JSON:
                     output.append(f"**Key Urdu Phrases:** {', '.join(seg['key_urdu_phrases'])}")
                     output.append("")
 
-                output.append("### Script")
-                output.append("")
-                output.append(seg.get("script", ""))
-                output.append("")
+                # Handle sub-segments
+                subsegments = seg.get("subsegments", {})
+                if subsegments:
+                    subseg_num = 1
+                    for subseg_key, subseg in subsegments.items():
+                        if isinstance(subseg, dict):
+                            subseg_name = subseg.get('name', subseg_key.replace('_', ' ').title())
+                            subseg_urdu = subseg.get('urdu_name', '')
+                            subseg_duration = subseg.get('duration', '')
+
+                            output.append(f"### {seg_num}.{subseg_num} {subseg_name} ({subseg_urdu})")
+                            if subseg_duration:
+                                output.append(f"*Duration: {subseg_duration}*")
+                            output.append("")
+
+                            # Output the script
+                            if subseg.get("script"):
+                                output.append(subseg["script"])
+                                output.append("")
+
+                            # Output any additional fields
+                            if subseg.get("featured_person"):
+                                person = subseg["featured_person"]
+                                output.append(f"**Featured:** {person.get('name', 'N/A')} from {person.get('city', 'N/A')}")
+                                output.append("")
+
+                            if subseg.get("featured_city"):
+                                output.append(f"**Featured City:** {subseg['featured_city']}")
+                                output.append("")
+
+                            if subseg.get("featured_country"):
+                                output.append(f"**Featured Country:** {subseg['featured_country']}")
+                                output.append("")
+
+                            if subseg.get("featured_app"):
+                                app = subseg["featured_app"]
+                                output.append(f"**Featured App:** {app.get('name', 'N/A')} ({app.get('category', '')}) - Rating: {app.get('rating', 'N/A')}")
+                                output.append("")
+
+                            if subseg.get("news_items"):
+                                output.append("**News Items:**")
+                                for item in subseg["news_items"]:
+                                    if isinstance(item, dict):
+                                        output.append(f"- **{item.get('headline', '')}** [{item.get('category', '')}]")
+                                        output.append(f"  - Pakistan Relevance: {item.get('pakistan_relevance', '')}")
+                                        output.append(f"  - Quick Take: {item.get('quick_take', '')}")
+                                output.append("")
+
+                            if subseg.get("key_takeaways"):
+                                output.append("**Key Takeaways:**")
+                                for takeaway in subseg["key_takeaways"]:
+                                    output.append(f"- {takeaway}")
+                                output.append("")
+
+                            subseg_num += 1
+                else:
+                    # Fallback for old format or simple script
+                    if seg.get("script"):
+                        output.append("### Script")
+                        output.append("")
+                        output.append(seg.get("script", ""))
+                        output.append("")
+
                 output.append("---")
                 output.append("")
 
