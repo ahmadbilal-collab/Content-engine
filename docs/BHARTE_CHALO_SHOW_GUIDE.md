@@ -9,54 +9,57 @@
 
 **Mission:** Educate everyone in Pakistan on AI, IT, leadership, and innovation - helping them think better, decide smarter, and move forward.
 
-**Schedule:** 2 Episodes Per Week | 1 Hour Each
+**Schedule:** 2 Episodes Per Week | 90 Minutes Each
 
 ---
 
 ## Show Structure
 
-### Episode Format (1 HOUR)
+### Episode Format (90 MINUTES)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  1. AGHAZ / OPENING                                  5 min     │
-│     → Assalam-u-Alaikum + Energy + Last Episode Recap          │
-│     → Today's topic hook + Episode roadmap                     │
+│  1. AGHAZ / INTRO                                  10-15 min   │
+│     → Assalam-u-Alaikum + Signature jingle                     │
+│     → Host intro + Last episode recap                          │
+│     → Today's episode roadmap + Listener shoutouts             │
 ├─────────────────────────────────────────────────────────────────┤
-│  2. TECH KHABRAIN / TECH NEWS                       8-10 min   │
-│     → 3-4 weekly tech news + Pakistan impact analysis          │
-│     → Quick takes and listener action items                    │
+│  2. MAIDAN SE / FIELD                              20 min      │
+│     → On-ground practical content                              │
+│     → Real-world scenario + Step-by-step guide                 │
+│     → Tools & resources + Common mistakes                      │
+│     → Success metrics + Live examples                          │
 ├─────────────────────────────────────────────────────────────────┤
-│  3. AAJ KA MAUZU - PEHLA HISSA / MAIN TOPIC PART 1  12-15 min  │
-│     → Deep dive into concepts and fundamentals                 │
-│     → Pakistani analogies + Historical context                 │
+│  3. HAMARA PAKISTAN / PAKISTAN                     20 min      │
+│     → Pakistan-focused deep dive                               │
+│     → Local success story (real person, real city)             │
+│     → Industry spotlight + Opportunities                       │
+│     → Challenges & solutions + Call to action                  │
 ├─────────────────────────────────────────────────────────────────┤
-│  4. HAMARI KAHANI / OUR STORY                       8-10 min   │
-│     → Pakistani success story related to topic                 │
-│     → Real journey: challenges, turning point, success         │
+│  4. DUNIYA BHAR SE / INTERNATIONAL                 20 min      │
+│     → Global tech trends & innovations                         │
+│     → International case studies                               │
+│     → What Silicon Valley, Europe, China are doing             │
+│     → Global opportunities for Pakistanis                      │
 ├─────────────────────────────────────────────────────────────────┤
-│  5. AAJ KA MAUZU - DOOSRA HISSA / MAIN TOPIC PART 2 10-12 min  │
-│     → Practical application + Tools + Step-by-step guide       │
-│     → Common mistakes to avoid                                 │
-├─────────────────────────────────────────────────────────────────┤
-│  6. LEADERSHIP KA SABAQ / LEADERSHIP LENS           8-10 min   │
-│     → Leadership angle + Decision frameworks                   │
-│     → How leaders should think about this topic                │
-├─────────────────────────────────────────────────────────────────┤
-│  7. AAP KE SAWAAL / YOUR QUESTIONS                  8-10 min   │
-│     → Answer 3-4 listener questions from the week              │
-│     → Acknowledge by city + Practical answers                  │
-├─────────────────────────────────────────────────────────────────┤
-│  8. AAJ HI KAREIN / ACTION STEPS                    5-7 min    │
-│     → 5 specific actions for this week                         │
-│     → Free resources + Weekly challenge                        │
-├─────────────────────────────────────────────────────────────────┤
-│  9. ALVIDA / CLOSING                                3-5 min    │
-│     → 3 key takeaways + Next episode teaser                    │
-│     → Community shoutouts + Signature sign-off                 │
+│  5. TECH KHABRAIN / NEWS                           20 min      │
+│     → Top 5-7 tech news of the week                            │
+│     → AI/ML updates + Startup funding news                     │
+│     → Pakistan tech news + Product launches                    │
+│     → What to watch next week + Closing                        │
 └─────────────────────────────────────────────────────────────────┘
-                        TOTAL: 60 MINUTES
+                        TOTAL: 90 MINUTES
 ```
+
+### Segment Details
+
+| Segment | Duration | Purpose |
+|---------|----------|---------|
+| **INTRO** (Aghaz) | 10-15 min | Energy, connection, roadmap |
+| **FIELD** (Maidan Se) | 20 min | Practical, hands-on content |
+| **PAKISTAN** (Hamara Pakistan) | 20 min | Local stories & opportunities |
+| **INTERNATIONAL** (Duniya Bhar Se) | 20 min | Global trends & perspectives |
+| **NEWS** (Tech Khabrain) | 20 min | Weekly roundup & closing |
 
 ---
 
