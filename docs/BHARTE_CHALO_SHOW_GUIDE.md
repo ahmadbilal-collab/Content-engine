@@ -15,101 +15,54 @@
 
 ## Show Structure
 
-### Episode Format (90 MINUTES - HIGH-CONTENT STRUCTURE)
+> **Note:** For the complete detailed format, see [BHARTE_CHALO_FINAL_FORMAT.md](./BHARTE_CHALO_FINAL_FORMAT.md)
+
+### Episode Format (90 MINUTES - 10 DIVERSE SEGMENTS)
 
 ```
-╔═══════════════════════════════════════════════════════════════════════╗
-║  SEGMENT 1: AGHAZ / INTRO                              10-15 MINUTES  ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  1.1 Signature Opening (Aghaz-e-Show)               1-2 min           ║
-║      → Show jingle (15 sec) + "Assalam-u-Alaikum Pakistan!"           ║
-║      → Show tagline + Date + Episode number + Energy hook             ║
-║  1.2 Host's Desk (Mezbaan ki Baat)                  2-3 min           ║
-║      → Personal touch + Weekly observation + Pakistani context        ║
-║  1.3 Last Episode Recap (Pichla Episode)            2 min             ║
-║      → 3-point recap + Listener feedback + Bridge to today            ║
-║  1.4 Today's Episode Preview (Aaj ka Agenda)        2-3 min           ║
-║      → Main topic hook + Preview all 5 segments + Special mentions    ║
-║  1.5 Listener Connect (Saameen ke Saath)            2-3 min           ║
-║      → City shoutouts + New welcomes + Community highlights           ║
-║  1.6 Quote of the Day (Aaj ka Quote)                1 min             ║
-║      → Bilingual quote + Reflection + Theme connection                ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  SEGMENT 2: MAIDAN SE / FIELD                          20 MINUTES     ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  2.1 The Challenge (Masla Kya Hai)                  3 min             ║
-║      → Real-world problem + Pakistani context + Stakes                ║
-║  2.2 Breaking It Down (Samajhte Hain)               4 min             ║
-║      → Deep analysis + Pakistani analogies (chai, cricket)            ║
-║  2.3 Step-by-Step Guide (Qadam Ba Qadam)            5 min             ║
-║      → 5-7 numbered steps + Examples + Pakistani considerations       ║
-║  2.4 Tools & Resources (Audzaar aur Resources)      3 min             ║
-║      → Free tools + Mobile-friendly + Data-light options              ║
-║  2.5 Common Mistakes (Yeh Galtiyan Mat Karein)      3 min             ║
-║      → Top 3-5 mistakes + Why they happen + How to avoid              ║
-║  2.6 Quick Win (Abhi Karein)                        2 min             ║
-║      → One action TODAY + 15 min max + No money needed                ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  SEGMENT 3: HAMARA PAKISTAN / PAKISTAN                 20 MINUTES     ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  3.1 Pakistan Success Spotlight (Kamyabi ki Kahani) 4 min             ║
-║      → Featured achiever + Journey + Challenges + Advice              ║
-║  3.2 Industry Watch (Industry ki Nazar)             4 min             ║
-║      → Industry deep-dive + Growth numbers + Entry opportunities      ║
-║  3.3 Startup Corner (Startup Ghar)                  3 min             ║
-║      → Featured Pakistani startup + Problem solving + Jobs            ║
-║  3.4 Freelancer Focus (Freelancer ki Baat)          3 min             ║
-║      → Tips + Platform updates + Dollar strategies                    ║
-║  3.5 City Spotlight (Shehr ki Roshni)               3 min             ║
-║      → Featured city tech scene + Hubs + Communities                  ║
-║  3.6 Pakistan Opportunities (Mauke hi Mauke)        3 min             ║
-║      → Job openings + Internships + Events + How to apply             ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  SEGMENT 4: DUNIYA BHAR SE / INTERNATIONAL             20 MINUTES     ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  4.1 Global Headlines (Duniya ki Headlines)         3 min             ║
-║      → Top 3 international stories + Pakistan connection              ║
-║  4.2 Innovation Spotlight (Nayi Ijad)               4 min             ║
-║      → Featured innovation + How it works + Pakistan opportunity      ║
-║  4.3 Country Focus (Mulk ki Nazar)                  4 min             ║
-║      → Deep dive one country + What Pakistan can learn                ║
-║  4.4 Global Giants (Bari Companies)                 3 min             ║
-║      → Google/Microsoft/Meta news + Jobs from Pakistan                ║
-║  4.5 Remote Work Radar (Remote Kaam)                3 min             ║
-║      → Remote opportunities + Companies hiring + Dollar salaries      ║
-║  4.6 Global Lessons (Duniya se Seekhein)            3 min             ║
-║      → Key lesson + Success/failure story + Apply in Pakistan         ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  SEGMENT 5: TECH KHABRAIN / NEWS                       20 MINUTES     ║
-╠═══════════════════════════════════════════════════════════════════════╣
-║  5.1 Headlines Roundup (Headlines)                  4 min             ║
-║      → Top 5 tech news + Host's take + Pakistan importance            ║
-║  5.2 AI Update (AI ki Khabrain)                     3 min             ║
-║      → AI/ML news + New tools + ChatGPT/Gemini updates                ║
-║  5.3 Funding & Investment (Paisa aur Investment)    3 min             ║
-║      → Startup funding news + Pakistani raises + VC trends            ║
-║  5.4 Pakistan Tech News (Pakistan Tech Khabrain)    3 min             ║
-║      → Local ecosystem + Government announcements + IT exports        ║
-║  5.5 App/Tool of the Week (Hafte ka App)            2 min             ║
-║      → Featured review + Free vs paid + Works in Pakistan?            ║
-║  5.6 Next Week Preview (Agle Hafte)                 2 min             ║
-║      → What to watch + Coming launches + Next episode tease           ║
-║  5.7 Closing & Sign-off (Alvida)                    3 min             ║
-║      → Episode summary + 3 takeaways + "Allah Hafiz Pakistan!"        ║
-╚═══════════════════════════════════════════════════════════════════════╝
-                        TOTAL: 90 MINUTES (31 SUB-SEGMENTS)
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                    BHARTE CHALO - 90 MINUTE FORMAT                        ║
+║                         بڑھتے چلو - 90 منٹ                                ║
+╠═══════════════════════════════════════════════════════════════════════════╣
+║  SEGMENT 1:  AGHAZ (Opening)                              8-10 min        ║
+║  SEGMENT 2:  TECH SAMJHO (Tech for Everyone)              10 min          ║
+║  SEGMENT 3:  TIPS & TRICKS (Totke)                        8 min           ║
+║  SEGMENT 4:  SKILL YA CAREER (Rotating)                   10 min          ║
+║  SEGMENT 5:  KAHANI (Success/Failure Story)               10 min          ║
+║  SEGMENT 6:  SACH YA JHOOT (Game Segment)                 5 min           ║
+║  SEGMENT 7:  TECH KHABRAIN (News)                         12 min          ║
+║  SEGMENT 8:  AAP KE SAWAAL (Your Questions)               10 min          ║
+║  SEGMENT 9:  GLOBAL NAZAR (Global Tech)                   7 min           ║
+║  SEGMENT 10: KHULAASA & ALVIDA (Conclusion & Closing)     8-10 min        ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+                              TOTAL: 90 MINUTES
 ```
 
 ### Segment Summary
 
-| Segment | Sub-segments | Duration | Purpose |
-|---------|-------------|----------|---------|
-| **1. INTRO** (Aghaz) | 6 | 10-15 min | Energy, connection, roadmap |
-| **2. FIELD** (Maidan Se) | 6 | 20 min | Practical, hands-on content |
-| **3. PAKISTAN** (Hamara Pakistan) | 6 | 20 min | Local stories & opportunities |
-| **4. INTERNATIONAL** (Duniya Bhar Se) | 6 | 20 min | Global trends & perspectives |
-| **5. NEWS** (Tech Khabrain) | 7 | 20 min | Weekly roundup & closing |
-| **TOTAL** | **31** | **90 min** | **Complete radio experience** |
+| # | Segment | Urdu Name | Duration | Type |
+|---|---------|-----------|----------|------|
+| 1 | Opening | Aghaz | 8-10 min | Fixed |
+| 2 | Tech for Everyone | Tech Samjho | 10 min | Fixed |
+| 3 | Tips & Tricks | Totke | 8 min | Fixed |
+| 4 | Skill/Career | Skill ya Career | 10 min | Rotating |
+| 5 | Story | Kahani | 10 min | Fixed |
+| 6 | Game | Sach ya Jhoot | 5 min | Rotating |
+| 7 | News | Tech Khabrain | 12 min | Fixed |
+| 8 | Q&A | Aap ke Sawaal | 10 min | Fixed |
+| 9 | Global/Jobs | Global Nazar | 7 min | Rotating |
+| 10 | Conclusion | Khulaasa & Alvida | 8-10 min | Fixed |
+| | **TOTAL** | | **~90 min** | |
+
+### Rotation Schedule
+
+| Day | Segment 4 | Segment 6 | Segment 9 |
+|-----|-----------|-----------|-----------|
+| **Tuesday (Ep 1)** | Skill Spotlight | Sach ya Jhoot | Global Tech Tour |
+| **Friday (Ep 2)** | Career in IT | Tech Myth Busters | Rate Card + Job Board |
+| **Tuesday (Ep 3)** | Skill Spotlight | Tech Trivia | Global Tech Tour |
+| **Friday (Ep 4)** | Career in IT | Hot Take | Rate Card + Job Board |
+| *(Repeat cycle)* | | | |
 
 ---
 
