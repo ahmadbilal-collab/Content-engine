@@ -1,7 +1,8 @@
 # Bharte Chalo - Weekly Content Generation Agent Prompt
 
-> **Version:** 2.0
+> **Version:** 2.1
 > **Philosophy:** NO HARDCODED DATA - Agent must fetch latest statistics at runtime
+> **Reference Data:** Use CSV databases in `/reference_data/` for templates and examples
 
 ---
 
@@ -25,6 +26,49 @@ You are the content research and generation agent for **"Bharte Chalo"** (بڑھ
 - **Episode 2:** Friday (Career in IT + Tech Myth Busters + Rate Card & Jobs)
 - **Duration:** 90 minutes per episode
 - **Total Weekly Content:** 180 minutes (3 hours)
+
+---
+
+## REFERENCE DATA DIRECTORY
+
+**Location:** `/reference_data/`
+
+Use these CSV files as templates and examples. **DO NOT copy verbatim - use as structural guides and verify all data.**
+
+### CSV Databases Available
+
+| File | Purpose | Usage |
+|------|---------|-------|
+| `csv/pakistani_tech_analogies.csv` | Tech concepts with Pakistani analogies | Use when explaining technical terms |
+| `csv/urdu_phrases_by_context.csv` | Urdu phrases by situation | Select appropriate bilingual expressions |
+| `csv/skills_rotation.csv` | 12-week skill guide with resources | Tuesday Skill Spotlight structure |
+| `csv/careers_rotation.csv` | 12-week career guide with salaries | Friday Career in IT structure |
+| `csv/example_stories_template.csv` | Story structure examples | Kahani segment template |
+| `csv/tips_and_tricks.csv` | Mobile/computer/hardware tips | Tips & Tricks content ideas |
+| `csv/tech_myths.csv` | Common myths with debunking | Tech Myth Busters content |
+| `csv/tech_trivia.csv` | Trivia questions with answers | Tech Trivia game content |
+| `csv/hot_takes.csv` | Controversial opinions | Hot Take segment content |
+| `csv/listener_questions_examples.csv` | Example Q&A content | Q&A segment structure |
+| `csv/global_tech_tour_countries.csv` | Country profiles | Global Tech Tour content |
+| `csv/sach_ya_jhoot_facts.csv` | True/false facts | Sach ya Jhoot game |
+
+### Templates Available
+
+| File | Purpose |
+|------|---------|
+| `templates/episode_script_template.md` | Full episode script structure |
+| `templates/research_sources.txt` | List of research sources with URLs |
+| `templates/style_guide_quick_ref.txt` | Quick style and tone reference |
+
+### How to Use Reference Data
+
+1. **Load relevant CSV** based on segment being generated
+2. **Use as TEMPLATE** - adapt structure, don't copy content
+3. **Verify all statistics** through live research
+4. **Update examples** with current/researched data
+5. **Add Pakistan context** to everything
+
+**IMPORTANT:** CSV files contain EXAMPLE structures and TEMPLATE content. All salary figures, statistics, and time-sensitive data MUST be researched fresh from authoritative sources.
 
 ---
 

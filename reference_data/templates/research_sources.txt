@@ -1,0 +1,138 @@
+# Bharte Chalo - Research Sources Quick Reference
+
+## PAKISTAN TECH NEWS
+propakistani.pk          - Tech, telecom, startups
+techjuice.pk             - Startups, ecosystem
+startuppakistan.com.pk   - Startup news
+dawn.com/tech            - General tech
+tribune.com.pk/technology - Tech news
+brecorder.com            - Business/IT news
+
+## PAKISTAN DATA
+pta.gov.pk/en/telecom-indicators  - Internet, broadband stats
+finance.gov.pk                     - IT export data
+pbs.gov.pk                         - Official statistics
+sbp.org.pk                         - Economic data
+
+## GLOBAL TECH NEWS
+techcrunch.com           - Startups, funding
+theverge.com            - Consumer tech
+wired.com               - Tech culture
+arstechnica.com         - Deep tech
+the-decoder.com         - AI news
+
+## AI UPDATES
+openai.com/blog         - ChatGPT updates
+anthropic.com/news      - Claude updates
+ai.googleblog.com       - Google AI
+huggingface.co/blog     - Open source AI
+deepmind.google/blog    - DeepMind research
+
+## SALARY DATA
+glassdoor.com/Salaries/pakistan  - Pakistan salaries
+linkedin.com/salary              - Market rates
+rozee.pk                         - Job listings with salaries
+levels.fyi                       - Tech salaries
+payscale.com                     - Salary benchmarks
+
+## REMOTE JOB BOARDS
+remoteok.com            - Remote jobs
+weworkremotely.com      - Remote jobs
+angel.co/jobs           - Startup jobs
+linkedin.com/jobs       - All jobs
+indeed.com              - All jobs
+
+## FREELANCE PLATFORMS
+upwork.com/research     - Skills reports
+fiverr.com              - Gig marketplace
+toptal.com              - Premium freelance
+contra.com              - New platform
+
+## SKILLS/LEARNING
+upwork.com/research/in-demand-skills  - Skills demand
+coursera.org/skills-reports           - Learning trends
+github.com/trending                   - Developer trends
+stackoverflow.com/survey              - Developer survey
+
+## SOCIAL MEDIA MONITORING
+twitter.com (X)         - Tech discussions
+linkedin.com            - Professional content
+reddit.com/r/pakistan   - Community discussions
+reddit.com/r/PakistaniiTechTalk - Tech community
+
+## REPORTS TO CHECK
+DataReportal            - Digital stats by country
+Payoneer Global Report  - Freelance trends
+Upwork Skills Index     - Quarterly skills
+LinkedIn Talent Insights - Hiring trends
+World Bank              - Development data
+
+## CURRENCY/RATES
+forex.pk                - Dollar rate
+google.com/finance      - Exchange rates
+xe.com                  - Currency conversion
+
+## FACT CHECKING
+snopes.com              - Myth busting
+factcheck.org           - Fact verification
+Wikipedia citations     - Cross-reference
+
+---
+
+# RESEARCH PROCESS CHECKLIST
+
+## Weekly News Research
+□ Check ProPakistani for Pakistan news
+□ Check TechCrunch for global news
+□ Check AI blogs for AI updates
+□ Check LinkedIn for industry trends
+□ Verify all facts before using
+
+## Salary Research
+□ Search Glassdoor for role
+□ Check LinkedIn job postings
+□ Verify with Rozee.pk
+□ Note date of data
+□ Compare local vs remote
+
+## Skill/Career Research
+□ Check Upwork skills report
+□ Search job postings for requirements
+□ Find free learning resources
+□ Verify accessibility in Pakistan
+□ Note earning potential
+
+## Tool Research
+□ Visit official website
+□ Check pricing page
+□ Verify works in Pakistan
+□ Check data usage
+□ Find alternatives if blocked
+
+## Story Research
+□ Search LinkedIn for journeys
+□ Check ProPakistani interviews
+□ Verify facts if real person
+□ Get permission if using name
+□ Or create composite example
+
+---
+
+# DATA CITATION FORMAT
+
+Always cite data as:
+"[STATISTIC] (Source: [SOURCE NAME], as of [DATE])"
+
+Example:
+"IT exports reached $2.8 billion (Source: Finance Ministry, as of March 2025)"
+
+---
+
+# RED FLAGS - DON'T USE WITHOUT VERIFICATION
+
+- Statistics without source
+- Round numbers (often estimated)
+- Data older than 6 months
+- Single source claims
+- Viral but unverified facts
+- Platform-specific data (changes often)

@@ -1,0 +1,117 @@
+# Bharte Chalo - Style Guide Quick Reference
+
+## LANGUAGE MIX FORMULA
+60% English + 40% Roman Urdu = Natural Pakistani Speech
+
+## WHEN TO USE URDU
+✓ Greetings: Assalam-u-Alaikum, Khush aamdeed
+✓ Emotions: Dil se baat, Aap akele nahi hain
+✓ Encouragement: Aap kar sakte hain, Himmat na harein
+✓ Emphasis: Yeh bohat zaroori hai, Dhyan se suniye
+✓ Transitions: Ab baat karte hain, Chalein aagey
+✓ Closing: Allah Hafiz, Phir milenge
+
+## WHEN TO USE ENGLISH
+✓ Technical terms (with Urdu explanation)
+✓ Company/platform names
+✓ Statistics and numbers
+✓ Job titles and skill names
+✓ Global concepts
+
+## TONE GUIDE
+✓ Conversational like talking to a smart friend
+✓ Warm and welcoming energy
+✓ Enthusiastic but not hyper
+✓ Hopeful but realistic
+✓ Respectful of listener intelligence
+
+## BAD vs GOOD EXAMPLES
+
+BAD: "Artificial Intelligence is defined as..."
+GOOD: "AI basically yeh hai ke computer ko insaan ki tarah sochna sikha dein"
+
+BAD: "You should learn programming"
+GOOD: "Programming seekhna chahiye - agar aapke paas laptop hai toh aaj hi shuru karo"
+
+BAD: "The job market is competitive"
+GOOD: "Market tough hai - lekin agar skill sahi ho toh opportunity bhi milti hai"
+
+## PAKISTANI CONTEXT RULES
+✓ Every tool → "Works in Pakistan? Data usage?"
+✓ Every salary → Pakistan + remote/dollar comparison
+✓ Every resource → Free options first
+✓ Every tip → Consider load shedding, slow internet
+✓ Every story → Connect to Pakistani reality
+
+## CITIES TO MENTION (Not just Karachi/Lahore)
+Karachi, Lahore, Islamabad, Faisalabad, Multan,
+Peshawar, Quetta, Sialkot, Rawalpindi, Hyderabad
+
+## SEGMENT ENERGY GUIDE
+Opening: HIGH energy, welcoming
+Tech Samjho: CLEAR, educational
+Tips: PRACTICAL, helpful
+Skill/Career: INFORMATIVE, encouraging
+Kahani: STORYTELLING, emotional
+Game: FUN, engaging
+News: INFORMATIVE, quick
+Q&A: HELPFUL, personal
+Global/Jobs: PRACTICAL, hopeful
+Closing: WARM, motivating
+
+## SIGNATURE PHRASES
+Show Name: "Bharte Chalo!"
+Tagline: "Sochein Behtar, Faisla Karein Smarter, Aagey Barhein"
+Closing: "Allah Hafiz Pakistan!"
+Encouragement: "Aap zaroor kar sakte hain!"
+Call to Action: "Aaj hi shuru karein!"
+
+## MUSIC CUES FORMAT
+[MUSIC: Description - duration]
+Examples:
+[MUSIC: Signature jingle - 15 sec]
+[MUSIC: Transition - 3 sec]
+[MUSIC: Fade under]
+[MUSIC: Closing theme - 15 sec]
+
+## HOST DIRECTION FORMAT
+[ENERGETIC] For high energy moments
+[WARM] For personal moments
+[PAUSE] For emphasis
+[EMPHASIS] For key points
+[STORYTELLING VOICE] For Kahani segment
+
+## TIMING DISCIPLINE
+Each segment has allocated time - stick to it:
+- Opening: 8-10 min
+- Tech Samjho: 10 min
+- Tips: 8 min
+- Skill/Career: 10 min
+- Kahani: 10 min
+- Game: 5 min
+- News: 12 min
+- Q&A: 10 min
+- Global/Jobs: 7 min
+- Closing: 8-10 min
+TOTAL: ~90 minutes
+
+## ACTIONABLE CONTENT RULE
+Every segment MUST end with:
+- What listener should DO
+- Specific next step
+- Resource or link if applicable
+
+## DATA CITATION RULE
+Every statistic MUST have:
+- Source name
+- Date (as of when)
+- Pakistan relevance
+
+## QUALITY CHECKLIST (Quick)
+□ Bilingual balance feels natural?
+□ Every segment has Pakistan context?
+□ Actionable takeaways in each segment?
+□ Technical terms explained simply?
+□ Energy appropriate for segment?
+□ Statistics cited with sources?
+□ Free options mentioned first?
