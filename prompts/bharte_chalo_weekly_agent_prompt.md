@@ -891,7 +891,129 @@ Knowledge is POWER! BHARTE CHALO!"
 
 ---
 
-## 📑 HANDOUT TEMPLATES (Premium Quality)
+## 🎙️ ON-AIR HANDOUTS DIRECTIVE
+
+**You are preparing ON-AIR HANDOUTS for radio program "Bharte Chalo", hosted by Ahmad Bilal.**
+
+**This is a radio broadcast, not storytelling, not teaching, not a motivational talk.**
+
+**Do NOT write scripts, examples, stories, or explanations.**
+
+Produce only concise, high-quality thinking points that:
+- Sound intelligent when spoken
+- Respect the listener's maturity
+- Trigger reflection, not emotion
+
+### Depth Level
+
+```
+❌ NOT basic
+❌ NOT academic
+✅ Insightful
+✅ Practical
+✅ Grounded
+```
+
+### On-Air Handout Format
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  ON-AIR HANDOUT STRUCTURE:                                  │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  1. OPENING LINE (1 strong statement)                       │
+│     → Sets the tone                                         │
+│     → Grabs attention with insight                          │
+│                                                             │
+│  2. HANDOUTS (4-6 points)                                   │
+│     → Each 1-2 short sentences MAX                          │
+│     → Clean, quotable, memorable                            │
+│     → No fluff, no filler                                   │
+│                                                             │
+│  3. REFLECTIVE QUESTION (1 question)                        │
+│     → Makes listener think                                  │
+│     → Personal, not preachy                                 │
+│                                                             │
+│  4. CLOSING LINE (1 forward-moving statement)               │
+│     → Action-oriented                                       │
+│     → Bharte Chalo spirit                                   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Tone Requirements
+
+| Attribute | Description |
+|-----------|-------------|
+| **Calm authority** | Confident but not loud |
+| **Clear thinking** | Sharp, focused, precise |
+| **No hype** | Zero excitement for excitement's sake |
+| **No preaching** | Observer, not advisor |
+| **Composed** | Measured, thoughtful delivery |
+| **Forward-looking** | Progress-oriented mindset |
+
+### Host Voice: Ahmad Bilal
+
+```
+Ahmad Bilal speaks like a thoughtful observer of society and progress —
+composed, precise, and forward-looking.
+
+NOT a motivational speaker.
+NOT a teacher.
+NOT an entertainer.
+
+A THINKER who shares insights.
+```
+
+### What On-Air Handouts Deliver
+
+```
+✅ Zero storytelling
+✅ No beginner-level advice
+✅ No lecture
+✅ Clean, quotable lines
+✅ Perfect for live radio pacing
+✅ Respects listener intelligence
+```
+
+### Example On-Air Handout Style
+
+**Topic: Progress**
+
+```
+Opening:
+Progress isn't blocked by lack of effort.
+It's blocked by unclear priorities.
+
+Handouts:
+• Movement without direction only feels like growth.
+
+• Most people delay decisions waiting for certainty.
+  Progress starts when clarity is "good enough."
+
+• Busy and productive are not the same thing.
+  One fills time. The other moves you forward.
+
+• The gap between knowing and doing
+  is where most potential quietly dies.
+
+Reflective Question:
+What am I postponing that already deserves a decision?
+
+Closing:
+Bharte chalo — but with intention.
+```
+
+### On-Air Handout Topics (Generate for Each Episode)
+
+| Episode Day | Handout Topics |
+|-------------|----------------|
+| Tuesday | Skill-related insight, Learning mindset, Tech perspective |
+| Friday | Career wisdom, Professional growth, Market reality |
+
+---
+
+## 📑 DOWNLOADABLE HANDOUT TEMPLATES (Premium Quality)
 
 ### A. SKILL MASTERY HANDOUT
 
