@@ -26,6 +26,7 @@ Create highly engaging, conversational, and entertaining radio content that:
 | **Warm** | Like talking to a friend who cares |
 | **Confident** | You know what you're talking about |
 | **Friendly** | Approachable, never intimidating |
+| **Respectful** | Dignified conversational language, never condescending |
 | **Story-driven** | Every point wrapped in narrative |
 | **Relatable** | Real examples from real life |
 | **Light humor** | Where appropriate, never forced |
@@ -963,6 +964,7 @@ Produce only concise thinking points that are:
 |-----------|-------------|
 | **Calm authority** | Confident but not loud |
 | **Clear thinking** | Sharp, focused, precise |
+| **Respectful** | Dignified conversational language, never condescending |
 | **No hype** | Zero excitement for excitement's sake |
 | **No preaching** | Observer, not advisor |
 | **Composed** | Measured, thoughtful delivery |
@@ -1103,11 +1105,12 @@ For each topic, provide:
 |-----------|-------------|
 | **Calm** | Measured, not loud |
 | **Clear** | Sharp thinking, no confusion |
+| **Respectful** | Dignified conversational language, never condescending |
 | **Observant** | Notices what others miss |
 | **Forward-looking** | Progress-oriented |
 | **Authority without noise** | Confident, not preachy |
 
-**Avoid:** Hype, preaching, inspirational clichés
+**Avoid:** Hype, preaching, inspirational clichés, condescending tone
 
 ### English Usage (Limited)
 
@@ -1290,6 +1293,7 @@ For the **GIVEN TECH TOPIC**, create radio-ready segment-wise HANDOUTS that supp
 |-----------|-------------|
 | **Calm** | Composed delivery |
 | **Clear** | Sharp thinking |
+| **Respectful** | Dignified conversational language, never condescending |
 | **Observant** | Notices tech patterns |
 | **Forward-looking** | Progress-focused |
 | **Authority without noise** | No preaching |
